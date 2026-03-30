@@ -2,10 +2,10 @@
 
 # codemaxxed
 
-<!-- LINES_BADGE -->![Lines of Code](https://img.shields.io/badge/lines%20of%20code-812%2C073%20and%20counting-brightgreen?style=for-the-badge)<!-- /LINES_BADGE -->
+<!-- LINES_BADGE -->![Lines of Code](https://img.shields.io/badge/lines%20of%20code-180%2C316%20and%20counting-brightgreen?style=for-the-badge)<!-- /LINES_BADGE -->
 
-<!-- FILES_BADGE -->![Files](https://img.shields.io/badge/files-6%2C989-blue?style=for-the-badge)<!-- /FILES_BADGE -->
-<!-- COMMITS_BADGE -->![Commits](https://img.shields.io/badge/commits-70-orange?style=for-the-badge)<!-- /COMMITS_BADGE -->
+<!-- FILES_BADGE -->![Files](https://img.shields.io/badge/files-8%2C789-blue?style=for-the-badge)<!-- /FILES_BADGE -->
+<!-- COMMITS_BADGE -->![Commits](https://img.shields.io/badge/commits-73-orange?style=for-the-badge)<!-- /COMMITS_BADGE -->
 
 **None of it does anything.**
 
