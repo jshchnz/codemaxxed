@@ -34,7 +34,7 @@ update_stats() {
   COMMITS_URL=$(echo "$COMMITS_FMT" | sed 's/,/%2C/g')
 
   # update README badges (img tags)
-  sed -i.bak "s|<img src=\"https://img.shields.io/badge/lines%20of%20code-[^\"]*\" alt=\"Lines of Code\">|<img src=\"https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge\" alt=\"Lines of Code\">|" README.md
+  sed -i.bak "s|<img src=\"https://img.shields.io/badge/lines%20of%20code-[^\"]*\" alt=\"Lines of Code\">|<img src=\"https://img.shields.io/badge/lines%20of%20code-${LINES_URL}-brightgreen?style=for-the-badge\" alt=\"Lines of Code\">|" README.md
   sed -i.bak "s|<img src=\"https://img.shields.io/badge/files-[^\"]*\" alt=\"Files\">|<img src=\"https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge\" alt=\"Files\">|" README.md
   sed -i.bak "s|<img src=\"https://img.shields.io/badge/commits-[^\"]*\" alt=\"Commits\">|<img src=\"https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge\" alt=\"Commits\">|" README.md
   rm -f README.md.bak

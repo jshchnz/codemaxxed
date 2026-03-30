@@ -71,6 +71,7 @@ jobs:
         run: |
           LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | awk '/total$/{s+=$1} END{print s}')
           FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
+          git fetch --unshallow 2>/dev/null || true
           COMMITS=$(git rev-list --count HEAD)
 
           # format with commas: 1234567 -> 1,234,567
@@ -85,7 +86,7 @@ jobs:
           COMMITS_URL=$(echo "$COMMITS_FMT" | sed 's/,/%2C/g')
 
           # update README badges in-place (img tags between comment markers)
-          sed -i "s|<img src=\"https://img.shields.io/badge/lines%20of%20code-[^\"]*\" alt=\"Lines of Code\">|<img src=\"https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge\" alt=\"Lines of Code\">|" README.md
+          sed -i "s|<img src=\"https://img.shields.io/badge/lines%20of%20code-[^\"]*\" alt=\"Lines of Code\">|<img src=\"https://img.shields.io/badge/lines%20of%20code-${LINES_URL}-brightgreen?style=for-the-badge\" alt=\"Lines of Code\">|" README.md
           sed -i "s|<img src=\"https://img.shields.io/badge/files-[^\"]*\" alt=\"Files\">|<img src=\"https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge\" alt=\"Files\">|" README.md
           sed -i "s|<img src=\"https://img.shields.io/badge/commits-[^\"]*\" alt=\"Commits\">|<img src=\"https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge\" alt=\"Commits\">|" README.md
 

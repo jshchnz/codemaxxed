@@ -3,14 +3,14 @@
 # codemaxxed
 
 <!-- LINES_BADGE -->
-<img src="https://img.shields.io/badge/lines%20of%20code-3%2C022%2C959%20and%20counting-brightgreen?style=for-the-badge" alt="Lines of Code">
+<img src="https://img.shields.io/badge/lines%20of%20code-3%2C022%2C959-brightgreen?style=for-the-badge" alt="Lines of Code">
 <!-- /LINES_BADGE -->
 
 <!-- FILES_BADGE -->
 <img src="https://img.shields.io/badge/files-10%2C563-blue?style=for-the-badge" alt="Files">
 <!-- /FILES_BADGE -->
 <!-- COMMITS_BADGE -->
-<img src="https://img.shields.io/badge/commits-72-orange?style=for-the-badge" alt="Commits">
+<img src="https://img.shields.io/badge/commits-73-orange?style=for-the-badge" alt="Commits">
 <!-- /COMMITS_BADGE -->
 
 **None of it does anything.**
