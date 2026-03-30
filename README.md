@@ -25,18 +25,6 @@ Built with [**codemaxxing**](https://github.com/jshchnz/codemaxxing) — a CLI t
 
 ---
 
-Every file in this repo was procedurally generated. Every class is fake. Every function returns `null`. Every getter gets nothing. Every setter sets nothing. The unit tests all pass because they only assert `True`.
-
-## What's in here?
-
-| Language | Flavor |
-|----------|--------|
-| **Java** | `AbstractSingletonProxyFactoryBeanManagerImpl` with 12 fields, getters, setters, and methods that return `null` |
-| **Python** | Metaclasses inheriting from abstract bases with 15-parameter constructors and factory classmethods |
-| **JavaScript/TypeScript** | Callback hell nested 10 levels deep, promise chains resolving to `undefined`, switch statements with 50 cases |
-| **Go** | Structs with 20 `interface{}` fields, methods that check `err != nil` and return `nil, nil`, goroutines sending to channels nobody reads |
-| **Generic** | If/else nested 20 levels deep, wrapper functions calling wrapper functions, enums with 100 values, unit tests that test nothing |
-
 ## How was this made?
 
 ```bash
