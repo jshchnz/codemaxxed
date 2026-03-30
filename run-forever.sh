@@ -33,10 +33,10 @@ update_stats() {
   FILES_URL=$(echo "$FILES_FMT" | sed 's/,/%2C/g')
   COMMITS_URL=$(echo "$COMMITS_FMT" | sed 's/,/%2C/g')
 
-  # update README badges
-  sed -i.bak "s|<!-- LINES_BADGE -->.*<!-- /LINES_BADGE -->|<!-- LINES_BADGE -->![Lines of Code](https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge)<!-- /LINES_BADGE -->|" README.md
-  sed -i.bak "s|<!-- FILES_BADGE -->.*<!-- /FILES_BADGE -->|<!-- FILES_BADGE -->![Files](https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge)<!-- /FILES_BADGE -->|" README.md
-  sed -i.bak "s|<!-- COMMITS_BADGE -->.*<!-- /COMMITS_BADGE -->|<!-- COMMITS_BADGE -->![Commits](https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge)<!-- /COMMITS_BADGE -->|" README.md
+  # update README badges (img tags)
+  sed -i.bak "s|<img src=\"https://img.shields.io/badge/lines%20of%20code-[^\"]*\" alt=\"Lines of Code\">|<img src=\"https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge\" alt=\"Lines of Code\">|" README.md
+  sed -i.bak "s|<img src=\"https://img.shields.io/badge/files-[^\"]*\" alt=\"Files\">|<img src=\"https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge\" alt=\"Files\">|" README.md
+  sed -i.bak "s|<img src=\"https://img.shields.io/badge/commits-[^\"]*\" alt=\"Commits\">|<img src=\"https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge\" alt=\"Commits\">|" README.md
   rm -f README.md.bak
 
   echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS, \"lines_fmt\": \"$LINES_FMT\", \"files_fmt\": \"$FILES_FMT\", \"commits_fmt\": \"$COMMITS_FMT\"}" > stats.json
