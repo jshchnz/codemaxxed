@@ -27,8 +27,6 @@ Built with [**codemaxxing**](https://github.com/jshchnz/codemaxxing) — a CLI t
 
 Every file in this repo was procedurally generated. Every class is fake. Every function returns `null`. Every getter gets nothing. Every setter sets nothing. The unit tests all pass because they only assert `True`.
 
-It is, in every measurable sense, a mass of code.
-
 ## What's in here?
 
 | Language | Flavor |
