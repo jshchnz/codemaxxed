@@ -20,17 +20,28 @@ PUSH_EVERY="${PUSH_EVERY:-50}"
 git config user.name "codemaxxing-bot"
 git config user.email "codemaxxing-bot@users.noreply.github.com"
 
+fmt_num() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
+
 update_stats() {
   LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
   FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
   COMMITS=$(git rev-list --count HEAD)
-  fmt_num() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
   LINES_FMT=$(fmt_num "$LINES")
   FILES_FMT=$(fmt_num "$FILES")
   COMMITS_FMT=$(fmt_num "$COMMITS")
+  LINES_URL=$(echo "$LINES_FMT" | sed 's/,/%2C/g')
+  FILES_URL=$(echo "$FILES_FMT" | sed 's/,/%2C/g')
+  COMMITS_URL=$(echo "$COMMITS_FMT" | sed 's/,/%2C/g')
+
+  # update README badges
+  sed -i.bak "s|<!-- LINES_BADGE -->.*<!-- /LINES_BADGE -->|<!-- LINES_BADGE -->![Lines of Code](https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge)<!-- /LINES_BADGE -->|" README.md
+  sed -i.bak "s|<!-- FILES_BADGE -->.*<!-- /FILES_BADGE -->|<!-- FILES_BADGE -->![Files](https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge)<!-- /FILES_BADGE -->|" README.md
+  sed -i.bak "s|<!-- COMMITS_BADGE -->.*<!-- /COMMITS_BADGE -->|<!-- COMMITS_BADGE -->![Commits](https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge)<!-- /COMMITS_BADGE -->|" README.md
+  rm -f README.md.bak
+
   echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS, \"lines_fmt\": \"$LINES_FMT\", \"files_fmt\": \"$FILES_FMT\", \"commits_fmt\": \"$COMMITS_FMT\"}" > stats.json
-  git add stats.json
-  git commit -m "update stats: ${LINES} lines, ${FILES} files, ${COMMITS} commits" 2>/dev/null || true
+  git add stats.json README.md
+  git commit -m "update stats: ${LINES_FMT} lines, ${FILES_FMT} files, ${COMMITS_FMT} commits" 2>/dev/null || true
 }
 
 echo "=== CODEMAXXING FOREVER MODE ==="

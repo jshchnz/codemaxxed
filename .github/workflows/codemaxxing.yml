@@ -67,18 +67,33 @@ jobs:
             --output . \
             --push-every 50
 
-      - name: Update stats
+      - name: Update stats and README badges
         run: |
           LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
           FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
           COMMITS=$(git rev-list --count HEAD)
+
+          # format with commas: 1234567 -> 1,234,567
           fmt_num() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
           LINES_FMT=$(fmt_num "$LINES")
           FILES_FMT=$(fmt_num "$FILES")
           COMMITS_FMT=$(fmt_num "$COMMITS")
+
+          # URL-encode commas for badge URLs: , -> %2C
+          LINES_URL=$(echo "$LINES_FMT" | sed 's/,/%2C/g')
+          FILES_URL=$(echo "$FILES_FMT" | sed 's/,/%2C/g')
+          COMMITS_URL=$(echo "$COMMITS_FMT" | sed 's/,/%2C/g')
+
+          # update README badges in-place
+          sed -i "s|<!-- LINES_BADGE -->.*<!-- /LINES_BADGE -->|<!-- LINES_BADGE -->![Lines of Code](https://img.shields.io/badge/lines%20of%20code-${LINES_URL}%20and%20counting-brightgreen?style=for-the-badge)<!-- /LINES_BADGE -->|" README.md
+          sed -i "s|<!-- FILES_BADGE -->.*<!-- /FILES_BADGE -->|<!-- FILES_BADGE -->![Files](https://img.shields.io/badge/files-${FILES_URL}-blue?style=for-the-badge)<!-- /FILES_BADGE -->|" README.md
+          sed -i "s|<!-- COMMITS_BADGE -->.*<!-- /COMMITS_BADGE -->|<!-- COMMITS_BADGE -->![Commits](https://img.shields.io/badge/commits-${COMMITS_URL}-orange?style=for-the-badge)<!-- /COMMITS_BADGE -->|" README.md
+
+          # also keep stats.json for the codemaxxing repo badges
           echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS, \"lines_fmt\": \"$LINES_FMT\", \"files_fmt\": \"$FILES_FMT\", \"commits_fmt\": \"$COMMITS_FMT\"}" > stats.json
-          git add stats.json
-          git commit -m "update stats: ${LINES} lines, ${FILES} files, ${COMMITS} commits" || true
+
+          git add stats.json README.md
+          git commit -m "update stats: ${LINES_FMT} lines, ${FILES_FMT} files, ${COMMITS_FMT} commits" || true
 
       - name: Final push
         run: git push origin main
