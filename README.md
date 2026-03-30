@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/commits-674-orange?style=for-the-badge" alt="Commits">
 <!-- /COMMITS_BADGE -->
 
-**None of this code does anything.** 
+**Just out here trying to see how many lines of slop we can get to as quickly as possible.** 
 
 ![Purpose](https://img.shields.io/badge/purpose-none-red?style=flat-square)
 ![Enterprise](https://img.shields.io/badge/enterprise-ready-purple?style=flat-square)
