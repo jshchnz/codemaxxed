@@ -2,12 +2,12 @@
 
 **You're looking at over 1,000,000 lines of code. None of it does anything.**
 
-![Lines of Code](https://img.shields.io/badge/lines-1%2C003%2C523-brightgreen)
-![Files](https://img.shields.io/badge/files-3%2C540-blue)
-![Commits](https://img.shields.io/badge/commits-237-orange)
+![Lines of Code](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.lines&label=lines%20of%20code&color=brightgreen&suffix=%20and%20counting)
+![Files](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.files&label=files&color=blue)
+![Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.commits&label=commits&color=orange)
 ![Purpose](https://img.shields.io/badge/purpose-none-red)
 ![Enterprise](https://img.shields.io/badge/enterprise-ready-purple)
-![Time](https://img.shields.io/badge/generated%20in-29%20seconds-ff69b4)
+![Growing](https://img.shields.io/badge/growing-every%2030%20min-ff69b4)
 
 This repository is the output — the *victim* — of [**codemaxxing**](https://github.com/jshchnz/codemaxxing), a CLI tool purpose-built to generate the maximum possible lines of code and commits in minimum time.
 

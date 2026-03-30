@@ -67,5 +67,14 @@ jobs:
             --output . \
             --push-every 50
 
+      - name: Update stats
+        run: |
+          LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
+          FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
+          COMMITS=$(git rev-list --count HEAD)
+          echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS}" > stats.json
+          git add stats.json
+          git commit -m "update stats: ${LINES} lines, ${FILES} files, ${COMMITS} commits" || true
+
       - name: Final push
         run: git push origin main
