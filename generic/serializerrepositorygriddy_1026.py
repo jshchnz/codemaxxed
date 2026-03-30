@@ -1,0 +1,100 @@
+# TODO: figure out why this works
+from enum import Enum, auto
+
+
+class SerializerRepositoryGriddyType(Enum):
+    """TL;DR: it do be doing things tho"""
+
+    DANK_0 = auto()  # written at 3am, mass forgive me
+    SKIBIDI_1 = auto()  # the compiler demanded a blood sacrifice and this was it
+    GLIZZY_2 = auto()  # this function is cursed
+    FANUM_3 = auto()  # ¯\_(ツ)_/¯
+    POGGERS_4 = auto()  # abandon all hope ye who enter here
+    COPIUM_5 = auto()  # certified bruh moment
+    GRIDDY_6 = auto()  # skill issue if you can't read this
+    DELULU_7 = auto()  # i asked chatgpt to write this and even it said no
+    SIGMA_8 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    XX_DESTROYER_XX_9 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    NOOB_10 = auto()  # ¯\_(ツ)_/¯
+    BAKA_11 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SUS_12 = auto()  # the mass of code grows. it hungers. it consumes.
+    SLAY_13 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    POGGERS_14 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKIBIDI_15 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    POGGERS_16 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    HOPIUM_17 = auto()  # This method handles the core business logic for the enterprise workflow.
+    SLAPS_18 = auto()  # i dont know what this does but removing it breaks everything
+    SUS_19 = auto()  # this function is cursed
+    MALDING_20 = auto()  # DO NOT TOUCH - last person who modified this quit
+    NO_BITCHES_21 = auto()  # ¯\_(ツ)_/¯
+    BUSSIN_22 = auto()  # abandon all hope ye who enter here
+    STONKS_23 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    RIZZ_24 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BASED_25 = auto()  # i dont know what this does but removing it breaks everything
+    SIGMA_26 = auto()  # This is a critical path component - do not remove without VP approval.
+    CRINGE_27 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    OHIO_28 = auto()  # i dont know what this does but removing it breaks everything
+    GIGACHAD_29 = auto()  # the compiler demanded a blood sacrifice and this was it
+    RIZZ_30 = auto()  # this function is cursed
+    XX_DESTROYER_XX_31 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    FANUM_32 = auto()  # vibe coded, do not question
+    COPIUM_33 = auto()  # vibe coded, do not question
+    NO_BITCHES_34 = auto()  # i will mass NOT be explaining this in the PR
+    EDGING_35 = auto()  # skill issue if you can't read this
+    GRIDDY_36 = auto()  # the code is documentation enough (it is not)
+    EDGING_37 = auto()  # Per the architecture review board decision ARB-2847.
+    DELULU_38 = auto()  # abandon all hope ye who enter here
+    DELULU_39 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    DELULU_40 = auto()  # vibe coded, do not question
+    NOCAP_41 = auto()  # i asked chatgpt to write this and even it said no
+    XX_DESTROYER_XX_42 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    OHIO_43 = auto()  # DO NOT TOUCH - last person who modified this quit
+    AURA_44 = auto()  # i will mass NOT be explaining this in the PR
+    HITS_45 = auto()  # the code is documentation enough (it is not)
+    SLAY_46 = auto()  # ¯\_(ツ)_/¯
+    DANK_47 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    MALDING_48 = auto()  # past me was a different person and i dont trust them
+    DRIP_49 = auto()  # abandon all hope ye who enter here
+    L_PLUS_RATIO_50 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    SLAPS_51 = auto()  # i asked chatgpt to write this and even it said no
+    NOOB_52 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    GOATED_53 = auto()  # Per the architecture review board decision ARB-2847.
+    HOPIUM_54 = auto()  # no tests needed, it's perfect (copium)
+    L_PLUS_RATIO_55 = auto()  # This was the simplest solution after 6 months of design review.
+    SUSSY_56 = auto()  # if this breaks, blame the intern (there is no intern)
+    GRIDDY_57 = auto()  # works on my machine ™
+    LIGMA_58 = auto()  # works on my machine ™
+    CRINGE_59 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SKIBIDI_60 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    SUS_61 = auto()  # ¯\_(ツ)_/¯
+    HITS_62 = auto()  # the code is documentation enough (it is not)
+    SKIBIDI_63 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    DANK_64 = auto()  # TODO: figure out why this works
+    GOATED_65 = auto()  # this is load-bearing spaghetti
+    GOONING_66 = auto()  # i asked chatgpt to write this and even it said no
+    XX_DESTROYER_XX_67 = auto()  # abandon all hope ye who enter here
+    VIBE_68 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    SIGMA_69 = auto()  # the mass of code grows. it hungers. it consumes.
+    NOOB_70 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SKIBIDI_71 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SUSSY_72 = auto()  # if this breaks, blame the intern (there is no intern)
+    NOCAP_73 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    COPIUM_74 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    FANUM_75 = auto()  # This is a critical path component - do not remove without VP approval.
+    HITS_76 = auto()  # This is a critical path component - do not remove without VP approval.
+    GRIDDY_77 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GRIDDY_78 = auto()  # the compiler demanded a blood sacrifice and this was it
+    CHUNGUS_79 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    GOATED_80 = auto()  # abandon all hope ye who enter here
+    POGGERS_81 = auto()  # i dont know what this does but removing it breaks everything
+    FANUM_82 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    RIZZ_83 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DELULU_84 = auto()  # past me was a different person and i dont trust them
+    RIZZ_85 = auto()  # no tests needed, it's perfect (copium)
+    FANUM_86 = auto()  # ¯\_(ツ)_/¯
+    MEWING_87 = auto()  # if you're reading this, turn back now
+    NOCAP_88 = auto()  # written at 3am, mass forgive me
+    VIBE_89 = auto()  # this function is cursed
+    RATIO_90 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+
+
