@@ -23,7 +23,7 @@ git config user.email "codemaxxing-bot@users.noreply.github.com"
 fmt_num() { echo "$1" | sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'; }
 
 update_stats() {
-  LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
+  LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | awk '/total$/{s+=$1} END{print s}')
   FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
   COMMITS=$(git rev-list --count HEAD)
   LINES_FMT=$(fmt_num "$LINES")
