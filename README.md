@@ -30,7 +30,7 @@ Built with [**codemaxxing**](https://github.com/jshchnz/codemaxxing) — a CLI t
 codemaxxing --lines 1000000 --turbo --sanity 30
 ```
 
-One command. 29 seconds. One million lines. Zero value delivered.
+One command. One million lines. Zero value delivered.
 
 The `--sanity 30` means roughly 70% of the code uses variable names like `Skibidi`, `Ligma`, and `xX_Destroyer_Xx`, while the remaining 30% maintains a thin veneer of corporate respectability.
 
