@@ -1,0 +1,71 @@
+name: codemaxxing
+
+on:
+  schedule:
+    # Run every 30 minutes, 24/7
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      lines:
+        description: 'Lines to generate'
+        required: false
+        default: '500000'
+      sanity:
+        description: 'Sanity level (0-100)'
+        required: false
+        default: '30'
+      batch_size:
+        description: 'Files per commit'
+        required: false
+        default: '25'
+
+jobs:
+  generate-slop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # stay under the 30min cron interval
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout codemaxxed
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout codemaxxing tool
+        uses: actions/checkout@v4
+        with:
+          repository: jshchnz/codemaxxing
+          path: .codemaxxing-tool
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install codemaxxing
+        run: pip install -e .codemaxxing-tool
+
+      - name: Configure git
+        run: |
+          git config user.name "codemaxxing-bot"
+          git config user.email "codemaxxing-bot@users.noreply.github.com"
+
+      - name: Generate slop
+        run: |
+          LINES=${{ inputs.lines || '500000' }}
+          SANITY=${{ inputs.sanity || '30' }}
+          BATCH=${{ inputs.batch_size || '25' }}
+
+          codemaxxing \
+            --turbo \
+            --lines "$LINES" \
+            --sanity "$SANITY" \
+            --batch-size "$BATCH" \
+            --branch main \
+            --output . \
+            --push-every 50
+
+      - name: Final push
+        run: git push origin main
