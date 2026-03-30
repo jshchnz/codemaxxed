@@ -1,8 +1,6 @@
 <div align="center">
 
 # codemaxxed
-
-Started Mar 30 2026
 <!-- LINES_BADGE -->
 <img src="https://img.shields.io/badge/lines%20of%20code-10%2C531%2C652-brightgreen?style=for-the-badge" alt="Lines of Code">
 <!-- /LINES_BADGE -->
