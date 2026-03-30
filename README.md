@@ -2,10 +2,10 @@
 
 # codemaxxed
 
-![Lines of Code](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.lines&label=lines%20of%20code&color=brightgreen&style=for-the-badge&suffix=%20and%20counting)
+![Lines of Code](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.lines_fmt&label=lines%20of%20code&color=brightgreen&style=for-the-badge&suffix=%20and%20counting)
 
-![Files](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.files&label=files&color=blue&style=for-the-badge)
-![Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.commits&label=commits&color=orange&style=for-the-badge)
+![Files](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.files_fmt&label=files&color=blue&style=for-the-badge)
+![Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjshchnz%2Fcodemaxxed%2Fmain%2Fstats.json&query=%24.commits_fmt&label=commits&color=orange&style=for-the-badge)
 
 **None of it does anything.**
 

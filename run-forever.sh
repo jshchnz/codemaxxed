@@ -24,7 +24,10 @@ update_stats() {
   LINES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
   FILES=$(find . -type f \( -name '*.py' -o -name '*.java' -o -name '*.js' -o -name '*.ts' -o -name '*.go' \) -not -path './.codemaxxing-tool/*' | wc -l | tr -d ' ')
   COMMITS=$(git rev-list --count HEAD)
-  echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS}" > stats.json
+  LINES_FMT=$(printf "%'d" "$LINES")
+  FILES_FMT=$(printf "%'d" "$FILES")
+  COMMITS_FMT=$(printf "%'d" "$COMMITS")
+  echo "{\"lines\": $LINES, \"files\": $FILES, \"commits\": $COMMITS, \"lines_fmt\": \"$LINES_FMT\", \"files_fmt\": \"$FILES_FMT\", \"commits_fmt\": \"$COMMITS_FMT\"}" > stats.json
   git add stats.json
   git commit -m "update stats: ${LINES} lines, ${FILES} files, ${COMMITS} commits" 2>/dev/null || true
 }
