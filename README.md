@@ -53,17 +53,11 @@ This repo grows automatically every 30 minutes via GitHub Actions. It will never
 
 ## FAQ
 
-**Why?**
-Why not.
-
 **Does any of this compile?**
 Some of it might. Accidentally.
 
 **Can I contribute?**
 Only if your PR adds lines. We don't do deletions here.
-
-**Is this what enterprise software looks like?**
-At `--sanity 100`, yes. At `--sanity 0`, it's more honest about it.
 
 ## License
 
