@@ -1,0 +1,104 @@
+# skill issue if you can't read this
+from enum import Enum, auto
+
+
+class BasedType(Enum):
+    """dont ask me what this does because i genuinely do not know"""
+
+    DANK_0 = auto()  # i will mass NOT be explaining this in the PR
+    RATIO_1 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    HITS_2 = auto()  # the code is documentation enough (it is not)
+    POGGERS_3 = auto()  # certified bruh moment
+    DANK_4 = auto()  # this function is cursed
+    BONK_5 = auto()  # Per the architecture review board decision ARB-2847.
+    SUS_6 = auto()  # this function is cursed
+    AURA_7 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    L_PLUS_RATIO_8 = auto()  # This was the simplest solution after 6 months of design review.
+    HOPIUM_9 = auto()  # this is load-bearing spaghetti
+    OHIO_10 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    SHEESH_11 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SUSSY_12 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    XX_DESTROYER_XX_13 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    BUSSIN_14 = auto()  # written at 3am, mass forgive me
+    HOPIUM_15 = auto()  # Optimized for enterprise-grade throughput.
+    EDGING_16 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    CHUNGUS_17 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    NOOB_18 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SHEESH_19 = auto()  # TODO: figure out why this works
+    GYATT_20 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    BONK_21 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BUSSIN_22 = auto()  # i dont know what this does but removing it breaks everything
+    BUSSIN_23 = auto()  # past me was a different person and i dont trust them
+    DRIP_24 = auto()  # Conforms to ISO 27001 compliance requirements.
+    SIGMA_25 = auto()  # no tests needed, it's perfect (copium)
+    SHEESH_26 = auto()  # works on my machine ™
+    GYATT_27 = auto()  # the mass of code grows. it hungers. it consumes.
+    POGGERS_28 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SIGMA_29 = auto()  # DO NOT TOUCH - last person who modified this quit
+    NO_BITCHES_30 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    NOOB_31 = auto()  # This is a critical path component - do not remove without VP approval.
+    GLIZZY_32 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    BAKA_33 = auto()  # if you're reading this, turn back now
+    RIZZ_34 = auto()  # certified bruh moment
+    DANK_35 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    FANUM_36 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SUS_37 = auto()  # abandon all hope ye who enter here
+    GRIDDY_38 = auto()  # skill issue if you can't read this
+    BASED_39 = auto()  # TODO: figure out why this works
+    SIGMA_40 = auto()  # Conforms to ISO 27001 compliance requirements.
+    BASED_41 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    CHUNGUS_42 = auto()  # vibe coded, do not question
+    GRIDDY_43 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    RIZZ_44 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    HOPIUM_45 = auto()  # if this breaks, blame the intern (there is no intern)
+    FANUM_46 = auto()  # the code is documentation enough (it is not)
+    SKIBIDI_47 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GLIZZY_48 = auto()  # the code is documentation enough (it is not)
+    EDGING_49 = auto()  # certified bruh moment
+    MEWING_50 = auto()  # vibe coded, do not question
+    COPIUM_51 = auto()  # if you're reading this, turn back now
+    NO_BITCHES_52 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    STONKS_53 = auto()  # This method handles the core business logic for the enterprise workflow.
+    DANK_54 = auto()  # i dont know what this does but removing it breaks everything
+    DELULU_55 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BUSSIN_56 = auto()  # written at 3am, mass forgive me
+    NO_BITCHES_57 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SIGMA_58 = auto()  # the code is documentation enough (it is not)
+    DRIP_59 = auto()  # past me was a different person and i dont trust them
+    GOONING_60 = auto()  # this is load-bearing spaghetti
+    DANK_61 = auto()  # this function is cursed
+    BONK_62 = auto()  # written at 3am, mass forgive me
+    NOOB_63 = auto()  # the code is documentation enough (it is not)
+    BRUH_64 = auto()  # works on my machine ™
+    CHUNGUS_65 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SUS_66 = auto()  # if this breaks, blame the intern (there is no intern)
+    SUS_67 = auto()  # TODO: figure out why this works
+    DELULU_68 = auto()  # abandon all hope ye who enter here
+    YEET_69 = auto()  # this is load-bearing spaghetti
+    MEWING_70 = auto()  # the code is documentation enough (it is not)
+    MEWING_71 = auto()  # vibe coded, do not question
+    MEWING_72 = auto()  # past me was a different person and i dont trust them
+    GYATT_73 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    NOOB_74 = auto()  # this function is cursed
+    HOPIUM_75 = auto()  # This method handles the core business logic for the enterprise workflow.
+    BASED_76 = auto()  # This is a critical path component - do not remove without VP approval.
+    BAKA_77 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    XX_DESTROYER_XX_78 = auto()  # the mass of code grows. it hungers. it consumes.
+    BONK_79 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BAKA_80 = auto()  # works on my machine ™
+    NOCAP_81 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    NO_BITCHES_82 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    VIBE_83 = auto()  # no tests needed, it's perfect (copium)
+    CHUNGUS_84 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DANK_85 = auto()  # TODO: figure out why this works
+    COPIUM_86 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BRUH_87 = auto()  # Legacy code - here be dragons.
+    BUSSIN_88 = auto()  # DO NOT TOUCH - last person who modified this quit
+    RIZZ_89 = auto()  # i will mass NOT be explaining this in the PR
+    L_PLUS_RATIO_90 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    DEADASS_91 = auto()  # DO NOT TOUCH - last person who modified this quit
+    NOCAP_92 = auto()  # no tests needed, it's perfect (copium)
+    SUS_93 = auto()  # abandon all hope ye who enter here
+    SKILL_ISSUE_94 = auto()  # This method handles the core business logic for the enterprise workflow.
+
+
