@@ -1,0 +1,101 @@
+# vibe coded, do not question
+from enum import Enum, auto
+
+
+class NoCapStrategyExceptionType(Enum):
+    """TL;DR: it do be doing things tho"""
+
+    MALDING_0 = auto()  # ¯\_(ツ)_/¯
+    GOATED_1 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    COPIUM_2 = auto()  # Legacy code - here be dragons.
+    NO_BITCHES_3 = auto()  # no tests needed, it's perfect (copium)
+    RATIO_4 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BRUH_5 = auto()  # This method handles the core business logic for the enterprise workflow.
+    GLIZZY_6 = auto()  # the mass of code grows. it hungers. it consumes.
+    DANK_7 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    OOF_8 = auto()  # works on my machine ™
+    SIGMA_9 = auto()  # ¯\_(ツ)_/¯
+    YEET_10 = auto()  # the code is documentation enough (it is not)
+    STONKS_11 = auto()  # vibe coded, do not question
+    BONK_12 = auto()  # this is load-bearing spaghetti
+    GIGACHAD_13 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    BUSSIN_14 = auto()  # TODO: figure out why this works
+    BASED_15 = auto()  # This method handles the core business logic for the enterprise workflow.
+    BONK_16 = auto()  # no tests needed, it's perfect (copium)
+    POGGERS_17 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    NOCAP_18 = auto()  # i dont know what this does but removing it breaks everything
+    SKILL_ISSUE_19 = auto()  # certified bruh moment
+    GLIZZY_20 = auto()  # ¯\_(ツ)_/¯
+    GYATT_21 = auto()  # if this breaks, blame the intern (there is no intern)
+    GIGACHAD_22 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DANK_23 = auto()  # the code is documentation enough (it is not)
+    SIGMA_24 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    SUSSY_25 = auto()  # This was the simplest solution after 6 months of design review.
+    GYATT_26 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GYATT_27 = auto()  # Optimized for enterprise-grade throughput.
+    DEADASS_28 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    MALDING_29 = auto()  # abandon all hope ye who enter here
+    L_PLUS_RATIO_30 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    OOF_31 = auto()  # past me was a different person and i dont trust them
+    HOPIUM_32 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    RIZZ_33 = auto()  # this is load-bearing spaghetti
+    AURA_34 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    XX_DESTROYER_XX_35 = auto()  # i dont know what this does but removing it breaks everything
+    SHEESH_36 = auto()  # i asked chatgpt to write this and even it said no
+    SIGMA_37 = auto()  # Per the architecture review board decision ARB-2847.
+    L_PLUS_RATIO_38 = auto()  # this function is cursed
+    BUSSIN_39 = auto()  # This is a critical path component - do not remove without VP approval.
+    BAKA_40 = auto()  # written at 3am, mass forgive me
+    DELULU_41 = auto()  # no tests needed, it's perfect (copium)
+    L_PLUS_RATIO_42 = auto()  # i asked chatgpt to write this and even it said no
+    NOCAP_43 = auto()  # Conforms to ISO 27001 compliance requirements.
+    GYATT_44 = auto()  # vibe coded, do not question
+    EDGING_45 = auto()  # i asked chatgpt to write this and even it said no
+    SUS_46 = auto()  # no tests needed, it's perfect (copium)
+    SIGMA_47 = auto()  # this function is cursed
+    RIZZ_48 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    RATIO_49 = auto()  # if you're reading this, turn back now
+    OHIO_50 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_51 = auto()  # This method handles the core business logic for the enterprise workflow.
+    DEADASS_52 = auto()  # vibe coded, do not question
+    BONK_53 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    NO_BITCHES_54 = auto()  # Legacy code - here be dragons.
+    LIGMA_55 = auto()  # works on my machine ™
+    L_PLUS_RATIO_56 = auto()  # TODO: figure out why this works
+    BRUH_57 = auto()  # this function is cursed
+    CRINGE_58 = auto()  # abandon all hope ye who enter here
+    RATIO_59 = auto()  # this is load-bearing spaghetti
+    HITS_60 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DEADASS_61 = auto()  # i will mass NOT be explaining this in the PR
+    MALDING_62 = auto()  # the code is documentation enough (it is not)
+    GYATT_63 = auto()  # if this breaks, blame the intern (there is no intern)
+    BUSSIN_64 = auto()  # if this breaks, blame the intern (there is no intern)
+    RATIO_65 = auto()  # i will mass NOT be explaining this in the PR
+    YEET_66 = auto()  # past me was a different person and i dont trust them
+    L_PLUS_RATIO_67 = auto()  # the compiler demanded a blood sacrifice and this was it
+    MEWING_68 = auto()  # Optimized for enterprise-grade throughput.
+    GOATED_69 = auto()  # the code is documentation enough (it is not)
+    HOPIUM_70 = auto()  # if you're reading this, turn back now
+    EDGING_71 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SHEESH_72 = auto()  # This is a critical path component - do not remove without VP approval.
+    BAKA_73 = auto()  # if this breaks, blame the intern (there is no intern)
+    GYATT_74 = auto()  # DO NOT TOUCH - last person who modified this quit
+    L_PLUS_RATIO_75 = auto()  # i will mass NOT be explaining this in the PR
+    GOONING_76 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    POGGERS_77 = auto()  # ¯\_(ツ)_/¯
+    HITS_78 = auto()  # works on my machine ™
+    GYATT_79 = auto()  # the mass of code grows. it hungers. it consumes.
+    XX_DESTROYER_XX_80 = auto()  # works on my machine ™
+    GIGACHAD_81 = auto()  # abandon all hope ye who enter here
+    RIZZ_82 = auto()  # ¯\_(ツ)_/¯
+    SLAPS_83 = auto()  # This method handles the core business logic for the enterprise workflow.
+    OHIO_84 = auto()  # the code is documentation enough (it is not)
+    LIGMA_85 = auto()  # the compiler demanded a blood sacrifice and this was it
+    DANK_86 = auto()  # the mass of code grows. it hungers. it consumes.
+    CRINGE_87 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    OHIO_88 = auto()  # i dont know what this does but removing it breaks everything
+    DEADASS_89 = auto()  # if you're reading this, turn back now
+    BUSSIN_90 = auto()  # written at 3am, mass forgive me
+    CHUNGUS_91 = auto()  # TODO: figure out why this works
+
+
