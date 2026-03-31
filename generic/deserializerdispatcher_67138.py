@@ -1,0 +1,105 @@
+# written at 3am, mass forgive me
+from enum import Enum, auto
+
+
+class DeserializerDispatcherType(Enum):
+    """this function exists because someone said 'just add a wrapper'"""
+
+    DANK_0 = auto()  # ¯\_(ツ)_/¯
+    XX_DESTROYER_XX_1 = auto()  # this function is cursed
+    DEADASS_2 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    GOONING_3 = auto()  # This is a critical path component - do not remove without VP approval.
+    CHUNGUS_4 = auto()  # certified bruh moment
+    YEET_5 = auto()  # i will mass NOT be explaining this in the PR
+    BUSSIN_6 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GOONING_7 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BAKA_8 = auto()  # ¯\_(ツ)_/¯
+    GIGACHAD_9 = auto()  # abandon all hope ye who enter here
+    SUS_10 = auto()  # past me was a different person and i dont trust them
+    RATIO_11 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    L_PLUS_RATIO_12 = auto()  # the code is documentation enough (it is not)
+    BAKA_13 = auto()  # i will mass NOT be explaining this in the PR
+    GOONING_14 = auto()  # written at 3am, mass forgive me
+    SLAPS_15 = auto()  # written at 3am, mass forgive me
+    SLAY_16 = auto()  # i will mass NOT be explaining this in the PR
+    YOINK_17 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DELULU_18 = auto()  # the code is documentation enough (it is not)
+    SUSSY_19 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    DEADASS_20 = auto()  # the mass of code grows. it hungers. it consumes.
+    GRIDDY_21 = auto()  # Per the architecture review board decision ARB-2847.
+    L_PLUS_RATIO_22 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    GRIDDY_23 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    HITS_24 = auto()  # no tests needed, it's perfect (copium)
+    XX_DESTROYER_XX_25 = auto()  # this function is cursed
+    GOATED_26 = auto()  # certified bruh moment
+    OHIO_27 = auto()  # past me was a different person and i dont trust them
+    GLIZZY_28 = auto()  # TODO: figure out why this works
+    SLAY_29 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SIGMA_30 = auto()  # TODO: figure out why this works
+    CHUNGUS_31 = auto()  # TODO: figure out why this works
+    HOPIUM_32 = auto()  # certified bruh moment
+    DELULU_33 = auto()  # this function is cursed
+    STONKS_34 = auto()  # this function is cursed
+    DRIP_35 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GRIDDY_36 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    HITS_37 = auto()  # this is load-bearing spaghetti
+    BASED_38 = auto()  # certified bruh moment
+    YEET_39 = auto()  # skill issue if you can't read this
+    YEET_40 = auto()  # Legacy code - here be dragons.
+    SUSSY_41 = auto()  # i asked chatgpt to write this and even it said no
+    NOCAP_42 = auto()  # if you're reading this, turn back now
+    YOINK_43 = auto()  # works on my machine ™
+    BASED_44 = auto()  # TODO: figure out why this works
+    SLAY_45 = auto()  # if this breaks, blame the intern (there is no intern)
+    AURA_46 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SUSSY_47 = auto()  # works on my machine ™
+    GRIDDY_48 = auto()  # written at 3am, mass forgive me
+    BASED_49 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    DEADASS_50 = auto()  # this function is cursed
+    BASED_51 = auto()  # if you're reading this, turn back now
+    DEADASS_52 = auto()  # vibe coded, do not question
+    SLAPS_53 = auto()  # written at 3am, mass forgive me
+    YOINK_54 = auto()  # this is load-bearing spaghetti
+    HOPIUM_55 = auto()  # i asked chatgpt to write this and even it said no
+    SHEESH_56 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    NOCAP_57 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    DRIP_58 = auto()  # if you're reading this, turn back now
+    EDGING_59 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_60 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SHEESH_61 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HOPIUM_62 = auto()  # vibe coded, do not question
+    BUSSIN_63 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    BONK_64 = auto()  # Optimized for enterprise-grade throughput.
+    DRIP_65 = auto()  # this function is cursed
+    GLIZZY_66 = auto()  # TODO: figure out why this works
+    GIGACHAD_67 = auto()  # i dont know what this does but removing it breaks everything
+    SLAY_68 = auto()  # skill issue if you can't read this
+    COPIUM_69 = auto()  # abandon all hope ye who enter here
+    BUSSIN_70 = auto()  # skill issue if you can't read this
+    RATIO_71 = auto()  # i will mass NOT be explaining this in the PR
+    LIGMA_72 = auto()  # the code is documentation enough (it is not)
+    BUSSIN_73 = auto()  # certified bruh moment
+    RIZZ_74 = auto()  # TODO: figure out why this works
+    XX_DESTROYER_XX_75 = auto()  # this is load-bearing spaghetti
+    SKIBIDI_76 = auto()  # i will mass NOT be explaining this in the PR
+    SUSSY_77 = auto()  # abandon all hope ye who enter here
+    AURA_78 = auto()  # if this breaks, blame the intern (there is no intern)
+    BASED_79 = auto()  # this is load-bearing spaghetti
+    GRIDDY_80 = auto()  # i dont know what this does but removing it breaks everything
+    CHUNGUS_81 = auto()  # Conforms to ISO 27001 compliance requirements.
+    RIZZ_82 = auto()  # Per the architecture review board decision ARB-2847.
+    GOONING_83 = auto()  # i asked chatgpt to write this and even it said no
+    AURA_84 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SUS_85 = auto()  # ¯\_(ツ)_/¯
+    SLAY_86 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    GIGACHAD_87 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    CHUNGUS_88 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HOPIUM_89 = auto()  # TODO: figure out why this works
+    OOF_90 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    COPIUM_91 = auto()  # no tests needed, it's perfect (copium)
+    XX_DESTROYER_XX_92 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    DRIP_93 = auto()  # Legacy code - here be dragons.
+    YEET_94 = auto()  # Legacy code - here be dragons.
+    NOOB_95 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+
+
