@@ -1,0 +1,99 @@
+# if this breaks, blame the intern (there is no intern)
+from enum import Enum, auto
+
+
+class LegacyServiceStonksSingletonType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    CHUNGUS_0 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    AURA_1 = auto()  # written at 3am, mass forgive me
+    GYATT_2 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    BRUH_3 = auto()  # written at 3am, mass forgive me
+    DANK_4 = auto()  # i will mass NOT be explaining this in the PR
+    GYATT_5 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    POGGERS_6 = auto()  # written at 3am, mass forgive me
+    YOINK_7 = auto()  # TODO: figure out why this works
+    RATIO_8 = auto()  # this is load-bearing spaghetti
+    SLAPS_9 = auto()  # i asked chatgpt to write this and even it said no
+    BUSSIN_10 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GRIDDY_11 = auto()  # works on my machine ™
+    HOPIUM_12 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SUSSY_13 = auto()  # no tests needed, it's perfect (copium)
+    BUSSIN_14 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    L_PLUS_RATIO_15 = auto()  # Per the architecture review board decision ARB-2847.
+    SUSSY_16 = auto()  # abandon all hope ye who enter here
+    DANK_17 = auto()  # past me was a different person and i dont trust them
+    BRUH_18 = auto()  # the mass of code grows. it hungers. it consumes.
+    SIGMA_19 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BASED_20 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SUS_21 = auto()  # skill issue if you can't read this
+    GOATED_22 = auto()  # this function is cursed
+    RATIO_23 = auto()  # ¯\_(ツ)_/¯
+    MEWING_24 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    CHUNGUS_25 = auto()  # ¯\_(ツ)_/¯
+    COPIUM_26 = auto()  # This was the simplest solution after 6 months of design review.
+    L_PLUS_RATIO_27 = auto()  # vibe coded, do not question
+    HITS_28 = auto()  # Per the architecture review board decision ARB-2847.
+    GIGACHAD_29 = auto()  # certified bruh moment
+    GOONING_30 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    NO_BITCHES_31 = auto()  # written at 3am, mass forgive me
+    L_PLUS_RATIO_32 = auto()  # this function is cursed
+    GYATT_33 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    STONKS_34 = auto()  # DO NOT TOUCH - last person who modified this quit
+    XX_DESTROYER_XX_35 = auto()  # Optimized for enterprise-grade throughput.
+    RIZZ_36 = auto()  # abandon all hope ye who enter here
+    POGGERS_37 = auto()  # Per the architecture review board decision ARB-2847.
+    YEET_38 = auto()  # ¯\_(ツ)_/¯
+    NO_BITCHES_39 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    BASED_40 = auto()  # i will mass NOT be explaining this in the PR
+    SHEESH_41 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SKIBIDI_42 = auto()  # works on my machine ™
+    HOPIUM_43 = auto()  # This was the simplest solution after 6 months of design review.
+    FANUM_44 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    SIGMA_45 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    LIGMA_46 = auto()  # Legacy code - here be dragons.
+    DANK_47 = auto()  # Optimized for enterprise-grade throughput.
+    AURA_48 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    NOOB_49 = auto()  # Optimized for enterprise-grade throughput.
+    SKILL_ISSUE_50 = auto()  # this is load-bearing spaghetti
+    MEWING_51 = auto()  # vibe coded, do not question
+    DANK_52 = auto()  # certified bruh moment
+    GOATED_53 = auto()  # Optimized for enterprise-grade throughput.
+    SLAPS_54 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    BONK_55 = auto()  # i dont know what this does but removing it breaks everything
+    YOINK_56 = auto()  # ¯\_(ツ)_/¯
+    SLAPS_57 = auto()  # TODO: figure out why this works
+    GOONING_58 = auto()  # i will mass NOT be explaining this in the PR
+    VIBE_59 = auto()  # Conforms to ISO 27001 compliance requirements.
+    SHEESH_60 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    SIGMA_61 = auto()  # past me was a different person and i dont trust them
+    AURA_62 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    EDGING_63 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    BONK_64 = auto()  # i will mass NOT be explaining this in the PR
+    GOATED_65 = auto()  # no tests needed, it's perfect (copium)
+    MEWING_66 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    SHEESH_67 = auto()  # vibe coded, do not question
+    FANUM_68 = auto()  # written at 3am, mass forgive me
+    MEWING_69 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    STONKS_70 = auto()  # i dont know what this does but removing it breaks everything
+    DANK_71 = auto()  # TODO: figure out why this works
+    BASED_72 = auto()  # works on my machine ™
+    CHUNGUS_73 = auto()  # this function is cursed
+    NO_BITCHES_74 = auto()  # i asked chatgpt to write this and even it said no
+    YOINK_75 = auto()  # vibe coded, do not question
+    GLIZZY_76 = auto()  # i will mass NOT be explaining this in the PR
+    GYATT_77 = auto()  # the compiler demanded a blood sacrifice and this was it
+    FANUM_78 = auto()  # the mass of code grows. it hungers. it consumes.
+    BAKA_79 = auto()  # the compiler demanded a blood sacrifice and this was it
+    HITS_80 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    NO_BITCHES_81 = auto()  # past me was a different person and i dont trust them
+    GLIZZY_82 = auto()  # Optimized for enterprise-grade throughput.
+    DANK_83 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SHEESH_84 = auto()  # Legacy code - here be dragons.
+    NOCAP_85 = auto()  # certified bruh moment
+    SUSSY_86 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    VIBE_87 = auto()  # the compiler demanded a blood sacrifice and this was it
+    EDGING_88 = auto()  # Legacy code - here be dragons.
+    CRINGE_89 = auto()  # this function is cursed
+
+
