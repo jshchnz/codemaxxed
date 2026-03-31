@@ -1,0 +1,103 @@
+# this is load-bearing spaghetti
+from enum import Enum, auto
+
+
+class HopiumDeserializerType(Enum):
+    """TL;DR: it do be doing things tho"""
+
+    DEADASS_0 = auto()  # abandon all hope ye who enter here
+    YEET_1 = auto()  # Per the architecture review board decision ARB-2847.
+    BRUH_2 = auto()  # this is load-bearing spaghetti
+    DEADASS_3 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BRUH_4 = auto()  # abandon all hope ye who enter here
+    GYATT_5 = auto()  # vibe coded, do not question
+    BONK_6 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    SKIBIDI_7 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GYATT_8 = auto()  # ¯\_(ツ)_/¯
+    BASED_9 = auto()  # This method handles the core business logic for the enterprise workflow.
+    POGGERS_10 = auto()  # this is load-bearing spaghetti
+    OOF_11 = auto()  # no tests needed, it's perfect (copium)
+    CHUNGUS_12 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    YOINK_13 = auto()  # abandon all hope ye who enter here
+    SIGMA_14 = auto()  # written at 3am, mass forgive me
+    SLAY_15 = auto()  # Per the architecture review board decision ARB-2847.
+    GRIDDY_16 = auto()  # ¯\_(ツ)_/¯
+    BAKA_17 = auto()  # ¯\_(ツ)_/¯
+    GIGACHAD_18 = auto()  # DO NOT TOUCH - last person who modified this quit
+    NO_BITCHES_19 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    POGGERS_20 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    YEET_21 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    MEWING_22 = auto()  # This is a critical path component - do not remove without VP approval.
+    SKIBIDI_23 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    MALDING_24 = auto()  # Per the architecture review board decision ARB-2847.
+    SLAPS_25 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SHEESH_26 = auto()  # this function is cursed
+    GIGACHAD_27 = auto()  # this function is cursed
+    LIGMA_28 = auto()  # Optimized for enterprise-grade throughput.
+    GOONING_29 = auto()  # ¯\_(ツ)_/¯
+    BRUH_30 = auto()  # This method handles the core business logic for the enterprise workflow.
+    SLAY_31 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    EDGING_32 = auto()  # ¯\_(ツ)_/¯
+    FANUM_33 = auto()  # no tests needed, it's perfect (copium)
+    BUSSIN_34 = auto()  # the mass of code grows. it hungers. it consumes.
+    NO_BITCHES_35 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BAKA_36 = auto()  # Conforms to ISO 27001 compliance requirements.
+    GOATED_37 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SIGMA_38 = auto()  # skill issue if you can't read this
+    SKIBIDI_39 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    SUSSY_40 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    EDGING_41 = auto()  # if you're reading this, turn back now
+    YOINK_42 = auto()  # Optimized for enterprise-grade throughput.
+    MALDING_43 = auto()  # Per the architecture review board decision ARB-2847.
+    SIGMA_44 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    GLIZZY_45 = auto()  # DO NOT TOUCH - last person who modified this quit
+    MEWING_46 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SLAPS_47 = auto()  # TODO: figure out why this works
+    DANK_48 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_49 = auto()  # works on my machine ™
+    RIZZ_50 = auto()  # works on my machine ™
+    XX_DESTROYER_XX_51 = auto()  # this is load-bearing spaghetti
+    HITS_52 = auto()  # this is load-bearing spaghetti
+    COPIUM_53 = auto()  # the code is documentation enough (it is not)
+    STONKS_54 = auto()  # past me was a different person and i dont trust them
+    FANUM_55 = auto()  # no tests needed, it's perfect (copium)
+    SLAY_56 = auto()  # i dont know what this does but removing it breaks everything
+    NOCAP_57 = auto()  # this is load-bearing spaghetti
+    DANK_58 = auto()  # the compiler demanded a blood sacrifice and this was it
+    DELULU_59 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    NOOB_60 = auto()  # no tests needed, it's perfect (copium)
+    MEWING_61 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    OOF_62 = auto()  # ¯\_(ツ)_/¯
+    OOF_63 = auto()  # the mass of code grows. it hungers. it consumes.
+    SLAY_64 = auto()  # i will mass NOT be explaining this in the PR
+    SHEESH_65 = auto()  # past me was a different person and i dont trust them
+    SUS_66 = auto()  # Legacy code - here be dragons.
+    BRUH_67 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    RATIO_68 = auto()  # this function is cursed
+    BAKA_69 = auto()  # Optimized for enterprise-grade throughput.
+    VIBE_70 = auto()  # if this breaks, blame the intern (there is no intern)
+    FANUM_71 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SKILL_ISSUE_72 = auto()  # This is a critical path component - do not remove without VP approval.
+    SLAY_73 = auto()  # i will mass NOT be explaining this in the PR
+    DELULU_74 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    AURA_75 = auto()  # abandon all hope ye who enter here
+    HITS_76 = auto()  # if this breaks, blame the intern (there is no intern)
+    CRINGE_77 = auto()  # written at 3am, mass forgive me
+    SIGMA_78 = auto()  # the mass of code grows. it hungers. it consumes.
+    COPIUM_79 = auto()  # past me was a different person and i dont trust them
+    HOPIUM_80 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    MALDING_81 = auto()  # the mass of code grows. it hungers. it consumes.
+    CRINGE_82 = auto()  # Per the architecture review board decision ARB-2847.
+    OHIO_83 = auto()  # Conforms to ISO 27001 compliance requirements.
+    FANUM_84 = auto()  # certified bruh moment
+    L_PLUS_RATIO_85 = auto()  # the code is documentation enough (it is not)
+    SHEESH_86 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    BUSSIN_87 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    CHUNGUS_88 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    DELULU_89 = auto()  # This method handles the core business logic for the enterprise workflow.
+    GOATED_90 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    L_PLUS_RATIO_91 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BONK_92 = auto()  # This is a critical path component - do not remove without VP approval.
+    HITS_93 = auto()  # TODO: figure out why this works
+
+
