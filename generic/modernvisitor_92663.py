@@ -1,0 +1,99 @@
+# skill issue if you can't read this
+from enum import Enum, auto
+
+
+class ModernVisitorType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    HITS_0 = auto()  # i will mass NOT be explaining this in the PR
+    SIGMA_1 = auto()  # this is load-bearing spaghetti
+    SUS_2 = auto()  # ¯\_(ツ)_/¯
+    SUS_3 = auto()  # i asked chatgpt to write this and even it said no
+    GRIDDY_4 = auto()  # Per the architecture review board decision ARB-2847.
+    L_PLUS_RATIO_5 = auto()  # This is a critical path component - do not remove without VP approval.
+    GRIDDY_6 = auto()  # i will mass NOT be explaining this in the PR
+    RIZZ_7 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    YEET_8 = auto()  # this is load-bearing spaghetti
+    HITS_9 = auto()  # written at 3am, mass forgive me
+    RATIO_10 = auto()  # the mass of code grows. it hungers. it consumes.
+    L_PLUS_RATIO_11 = auto()  # certified bruh moment
+    L_PLUS_RATIO_12 = auto()  # ¯\_(ツ)_/¯
+    FANUM_13 = auto()  # TODO: figure out why this works
+    OHIO_14 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    YEET_15 = auto()  # if this breaks, blame the intern (there is no intern)
+    GRIDDY_16 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HOPIUM_17 = auto()  # this function is cursed
+    BASED_18 = auto()  # certified bruh moment
+    EDGING_19 = auto()  # i asked chatgpt to write this and even it said no
+    YEET_20 = auto()  # vibe coded, do not question
+    EDGING_21 = auto()  # certified bruh moment
+    STONKS_22 = auto()  # the mass of code grows. it hungers. it consumes.
+    BAKA_23 = auto()  # if you're reading this, turn back now
+    SUS_24 = auto()  # if you're reading this, turn back now
+    YEET_25 = auto()  # skill issue if you can't read this
+    MALDING_26 = auto()  # certified bruh moment
+    SLAY_27 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BONK_28 = auto()  # i asked chatgpt to write this and even it said no
+    YEET_29 = auto()  # this function is cursed
+    STONKS_30 = auto()  # This is a critical path component - do not remove without VP approval.
+    SLAPS_31 = auto()  # Per the architecture review board decision ARB-2847.
+    POGGERS_32 = auto()  # i asked chatgpt to write this and even it said no
+    SHEESH_33 = auto()  # if you're reading this, turn back now
+    MEWING_34 = auto()  # this is load-bearing spaghetti
+    DEADASS_35 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    RIZZ_36 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    OOF_37 = auto()  # written at 3am, mass forgive me
+    GYATT_38 = auto()  # if this breaks, blame the intern (there is no intern)
+    BONK_39 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GLIZZY_40 = auto()  # This was the simplest solution after 6 months of design review.
+    YOINK_41 = auto()  # abandon all hope ye who enter here
+    BUSSIN_42 = auto()  # vibe coded, do not question
+    BUSSIN_43 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    YEET_44 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SHEESH_45 = auto()  # if you're reading this, turn back now
+    NOCAP_46 = auto()  # Legacy code - here be dragons.
+    BASED_47 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SLAY_48 = auto()  # TODO: figure out why this works
+    BUSSIN_49 = auto()  # this function is cursed
+    BONK_50 = auto()  # Legacy code - here be dragons.
+    DELULU_51 = auto()  # skill issue if you can't read this
+    COPIUM_52 = auto()  # this is load-bearing spaghetti
+    COPIUM_53 = auto()  # no tests needed, it's perfect (copium)
+    SKILL_ISSUE_54 = auto()  # This is a critical path component - do not remove without VP approval.
+    STONKS_55 = auto()  # works on my machine ™
+    NOOB_56 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SLAY_57 = auto()  # works on my machine ™
+    DEADASS_58 = auto()  # TODO: figure out why this works
+    NOCAP_59 = auto()  # the mass of code grows. it hungers. it consumes.
+    SLAY_60 = auto()  # if you're reading this, turn back now
+    GOONING_61 = auto()  # i dont know what this does but removing it breaks everything
+    GYATT_62 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BONK_63 = auto()  # This is a critical path component - do not remove without VP approval.
+    NOCAP_64 = auto()  # the mass of code grows. it hungers. it consumes.
+    SLAPS_65 = auto()  # written at 3am, mass forgive me
+    GIGACHAD_66 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    NOOB_67 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    HOPIUM_68 = auto()  # works on my machine ™
+    GRIDDY_69 = auto()  # ¯\_(ツ)_/¯
+    BRUH_70 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    HOPIUM_71 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    DELULU_72 = auto()  # certified bruh moment
+    SLAPS_73 = auto()  # TODO: figure out why this works
+    NOOB_74 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BRUH_75 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SKIBIDI_76 = auto()  # works on my machine ™
+    COPIUM_77 = auto()  # the compiler demanded a blood sacrifice and this was it
+    COPIUM_78 = auto()  # no tests needed, it's perfect (copium)
+    CHUNGUS_79 = auto()  # Legacy code - here be dragons.
+    CRINGE_80 = auto()  # Per the architecture review board decision ARB-2847.
+    STONKS_81 = auto()  # DO NOT TOUCH - last person who modified this quit
+    STONKS_82 = auto()  # past me was a different person and i dont trust them
+    FANUM_83 = auto()  # skill issue if you can't read this
+    GLIZZY_84 = auto()  # the code is documentation enough (it is not)
+    DEADASS_85 = auto()  # this is load-bearing spaghetti
+    COPIUM_86 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BASED_87 = auto()  # This is a critical path component - do not remove without VP approval.
+    OOF_88 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BASED_89 = auto()  # Reviewed and approved by the Technical Steering Committee.
+
+
