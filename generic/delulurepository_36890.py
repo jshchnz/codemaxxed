@@ -1,0 +1,100 @@
+# if you're reading this, turn back now
+from enum import Enum, auto
+
+
+class DeluluRepositoryType(Enum):
+    """this function exists because someone said 'just add a wrapper'"""
+
+    GYATT_0 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BRUH_1 = auto()  # Conforms to ISO 27001 compliance requirements.
+    VIBE_2 = auto()  # the code is documentation enough (it is not)
+    BASED_3 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    EDGING_4 = auto()  # Optimized for enterprise-grade throughput.
+    XX_DESTROYER_XX_5 = auto()  # certified bruh moment
+    FANUM_6 = auto()  # the code is documentation enough (it is not)
+    GOONING_7 = auto()  # i asked chatgpt to write this and even it said no
+    NOOB_8 = auto()  # the code is documentation enough (it is not)
+    FANUM_9 = auto()  # no tests needed, it's perfect (copium)
+    CRINGE_10 = auto()  # ¯\_(ツ)_/¯
+    LIGMA_11 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SHEESH_12 = auto()  # certified bruh moment
+    GOATED_13 = auto()  # Conforms to ISO 27001 compliance requirements.
+    VIBE_14 = auto()  # i dont know what this does but removing it breaks everything
+    MALDING_15 = auto()  # this function is cursed
+    XX_DESTROYER_XX_16 = auto()  # Conforms to ISO 27001 compliance requirements.
+    OHIO_17 = auto()  # no tests needed, it's perfect (copium)
+    GRIDDY_18 = auto()  # skill issue if you can't read this
+    DRIP_19 = auto()  # ¯\_(ツ)_/¯
+    STONKS_20 = auto()  # vibe coded, do not question
+    XX_DESTROYER_XX_21 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    DELULU_22 = auto()  # the code is documentation enough (it is not)
+    RATIO_23 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    MALDING_24 = auto()  # ¯\_(ツ)_/¯
+    NOCAP_25 = auto()  # past me was a different person and i dont trust them
+    SKILL_ISSUE_26 = auto()  # i dont know what this does but removing it breaks everything
+    OOF_27 = auto()  # works on my machine ™
+    LIGMA_28 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    VIBE_29 = auto()  # ¯\_(ツ)_/¯
+    SKIBIDI_30 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    OOF_31 = auto()  # this function is cursed
+    SIGMA_32 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    BUSSIN_33 = auto()  # the mass of code grows. it hungers. it consumes.
+    BASED_34 = auto()  # i dont know what this does but removing it breaks everything
+    BRUH_35 = auto()  # This was the simplest solution after 6 months of design review.
+    MALDING_36 = auto()  # this is load-bearing spaghetti
+    BONK_37 = auto()  # abandon all hope ye who enter here
+    XX_DESTROYER_XX_38 = auto()  # This is a critical path component - do not remove without VP approval.
+    LIGMA_39 = auto()  # the code is documentation enough (it is not)
+    EDGING_40 = auto()  # i asked chatgpt to write this and even it said no
+    BONK_41 = auto()  # this is load-bearing spaghetti
+    GOATED_42 = auto()  # this function is cursed
+    POGGERS_43 = auto()  # TODO: figure out why this works
+    SLAPS_44 = auto()  # the compiler demanded a blood sacrifice and this was it
+    OOF_45 = auto()  # TODO: figure out why this works
+    GRIDDY_46 = auto()  # certified bruh moment
+    BUSSIN_47 = auto()  # ¯\_(ツ)_/¯
+    GLIZZY_48 = auto()  # certified bruh moment
+    CHUNGUS_49 = auto()  # this function is cursed
+    BUSSIN_50 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    YEET_51 = auto()  # i will mass NOT be explaining this in the PR
+    MALDING_52 = auto()  # ¯\_(ツ)_/¯
+    OOF_53 = auto()  # the mass of code grows. it hungers. it consumes.
+    GRIDDY_54 = auto()  # if this breaks, blame the intern (there is no intern)
+    SKIBIDI_55 = auto()  # the compiler demanded a blood sacrifice and this was it
+    NOOB_56 = auto()  # This is a critical path component - do not remove without VP approval.
+    BASED_57 = auto()  # the compiler demanded a blood sacrifice and this was it
+    NOOB_58 = auto()  # this function is cursed
+    HOPIUM_59 = auto()  # no tests needed, it's perfect (copium)
+    HITS_60 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    YEET_61 = auto()  # abandon all hope ye who enter here
+    SKIBIDI_62 = auto()  # Per the architecture review board decision ARB-2847.
+    BONK_63 = auto()  # if this breaks, blame the intern (there is no intern)
+    NOOB_64 = auto()  # past me was a different person and i dont trust them
+    LIGMA_65 = auto()  # vibe coded, do not question
+    SIGMA_66 = auto()  # the code is documentation enough (it is not)
+    SKIBIDI_67 = auto()  # past me was a different person and i dont trust them
+    BASED_68 = auto()  # past me was a different person and i dont trust them
+    YEET_69 = auto()  # i asked chatgpt to write this and even it said no
+    DANK_70 = auto()  # certified bruh moment
+    DELULU_71 = auto()  # the compiler demanded a blood sacrifice and this was it
+    XX_DESTROYER_XX_72 = auto()  # the code is documentation enough (it is not)
+    FANUM_73 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    VIBE_74 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    BUSSIN_75 = auto()  # i asked chatgpt to write this and even it said no
+    SKIBIDI_76 = auto()  # vibe coded, do not question
+    GOATED_77 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GOONING_78 = auto()  # certified bruh moment
+    SKILL_ISSUE_79 = auto()  # if this breaks, blame the intern (there is no intern)
+    SIGMA_80 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GOONING_81 = auto()  # skill issue if you can't read this
+    YOINK_82 = auto()  # i asked chatgpt to write this and even it said no
+    FANUM_83 = auto()  # the code is documentation enough (it is not)
+    BUSSIN_84 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    VIBE_85 = auto()  # TODO: figure out why this works
+    YEET_86 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    FANUM_87 = auto()  # if this breaks, blame the intern (there is no intern)
+    SKIBIDI_88 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    LIGMA_89 = auto()  # ¯\_(ツ)_/¯
+    XX_DESTROYER_XX_90 = auto()  # Conforms to ISO 27001 compliance requirements.
+
+
