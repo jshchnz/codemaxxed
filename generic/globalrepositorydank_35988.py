@@ -1,0 +1,99 @@
+# written at 3am, mass forgive me
+from enum import Enum, auto
+
+
+class GlobalRepositoryDankType(Enum):
+    """side effects: may cause existential dread"""
+
+    SUS_0 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    OHIO_1 = auto()  # This is a critical path component - do not remove without VP approval.
+    RIZZ_2 = auto()  # ¯\_(ツ)_/¯
+    AURA_3 = auto()  # if you're reading this, turn back now
+    SUSSY_4 = auto()  # no tests needed, it's perfect (copium)
+    GLIZZY_5 = auto()  # i dont know what this does but removing it breaks everything
+    BAKA_6 = auto()  # no tests needed, it's perfect (copium)
+    GIGACHAD_7 = auto()  # certified bruh moment
+    XX_DESTROYER_XX_8 = auto()  # this is load-bearing spaghetti
+    SIGMA_9 = auto()  # no tests needed, it's perfect (copium)
+    AURA_10 = auto()  # i dont know what this does but removing it breaks everything
+    LIGMA_11 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    EDGING_12 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    MEWING_13 = auto()  # i will mass NOT be explaining this in the PR
+    BONK_14 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKILL_ISSUE_15 = auto()  # DO NOT TOUCH - last person who modified this quit
+    BUSSIN_16 = auto()  # DO NOT TOUCH - last person who modified this quit
+    FANUM_17 = auto()  # This was the simplest solution after 6 months of design review.
+    MALDING_18 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    DELULU_19 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SKILL_ISSUE_20 = auto()  # no tests needed, it's perfect (copium)
+    EDGING_21 = auto()  # skill issue if you can't read this
+    BONK_22 = auto()  # no tests needed, it's perfect (copium)
+    EDGING_23 = auto()  # TODO: figure out why this works
+    XX_DESTROYER_XX_24 = auto()  # vibe coded, do not question
+    SLAY_25 = auto()  # Optimized for enterprise-grade throughput.
+    HITS_26 = auto()  # certified bruh moment
+    SLAY_27 = auto()  # if this breaks, blame the intern (there is no intern)
+    OHIO_28 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    BONK_29 = auto()  # Legacy code - here be dragons.
+    SLAY_30 = auto()  # Legacy code - here be dragons.
+    HOPIUM_31 = auto()  # Conforms to ISO 27001 compliance requirements.
+    BUSSIN_32 = auto()  # Optimized for enterprise-grade throughput.
+    RATIO_33 = auto()  # TODO: figure out why this works
+    SKIBIDI_34 = auto()  # past me was a different person and i dont trust them
+    YEET_35 = auto()  # skill issue if you can't read this
+    SUS_36 = auto()  # past me was a different person and i dont trust them
+    NO_BITCHES_37 = auto()  # Optimized for enterprise-grade throughput.
+    COPIUM_38 = auto()  # if this breaks, blame the intern (there is no intern)
+    DEADASS_39 = auto()  # this function is cursed
+    GLIZZY_40 = auto()  # works on my machine ™
+    NOCAP_41 = auto()  # i dont know what this does but removing it breaks everything
+    NO_BITCHES_42 = auto()  # the code is documentation enough (it is not)
+    GOATED_43 = auto()  # this function is cursed
+    RIZZ_44 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SLAPS_45 = auto()  # this is load-bearing spaghetti
+    YEET_46 = auto()  # if you're reading this, turn back now
+    HITS_47 = auto()  # if this breaks, blame the intern (there is no intern)
+    HOPIUM_48 = auto()  # past me was a different person and i dont trust them
+    FANUM_49 = auto()  # no tests needed, it's perfect (copium)
+    OHIO_50 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    CHUNGUS_51 = auto()  # i dont know what this does but removing it breaks everything
+    MALDING_52 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    DRIP_53 = auto()  # the code is documentation enough (it is not)
+    NOOB_54 = auto()  # no tests needed, it's perfect (copium)
+    YOINK_55 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    NO_BITCHES_56 = auto()  # this function is cursed
+    GRIDDY_57 = auto()  # TODO: figure out why this works
+    BASED_58 = auto()  # TODO: figure out why this works
+    BUSSIN_59 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BAKA_60 = auto()  # abandon all hope ye who enter here
+    LIGMA_61 = auto()  # written at 3am, mass forgive me
+    VIBE_62 = auto()  # this function is cursed
+    DRIP_63 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SIGMA_64 = auto()  # ¯\_(ツ)_/¯
+    SLAY_65 = auto()  # DO NOT TOUCH - last person who modified this quit
+    LIGMA_66 = auto()  # certified bruh moment
+    SIGMA_67 = auto()  # vibe coded, do not question
+    BUSSIN_68 = auto()  # i asked chatgpt to write this and even it said no
+    AURA_69 = auto()  # this is load-bearing spaghetti
+    MEWING_70 = auto()  # abandon all hope ye who enter here
+    HOPIUM_71 = auto()  # this function is cursed
+    YOINK_72 = auto()  # ¯\_(ツ)_/¯
+    SIGMA_73 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    SLAY_74 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SUS_75 = auto()  # i dont know what this does but removing it breaks everything
+    SUS_76 = auto()  # Legacy code - here be dragons.
+    L_PLUS_RATIO_77 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SUSSY_78 = auto()  # works on my machine ™
+    NOCAP_79 = auto()  # abandon all hope ye who enter here
+    GRIDDY_80 = auto()  # no tests needed, it's perfect (copium)
+    GOONING_81 = auto()  # past me was a different person and i dont trust them
+    MEWING_82 = auto()  # no tests needed, it's perfect (copium)
+    HITS_83 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SIGMA_84 = auto()  # ¯\_(ツ)_/¯
+    YOINK_85 = auto()  # works on my machine ™
+    BONK_86 = auto()  # i asked chatgpt to write this and even it said no
+    DANK_87 = auto()  # the compiler demanded a blood sacrifice and this was it
+    YEET_88 = auto()  # works on my machine ™
+    LIGMA_89 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+
+
