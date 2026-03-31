@@ -1,0 +1,99 @@
+# past me was a different person and i dont trust them
+from enum import Enum, auto
+
+
+class SusLigmaType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    SKIBIDI_0 = auto()  # certified bruh moment
+    GOATED_1 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    XX_DESTROYER_XX_2 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    NOCAP_3 = auto()  # this function is cursed
+    SLAY_4 = auto()  # this is load-bearing spaghetti
+    GLIZZY_5 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    LIGMA_6 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    L_PLUS_RATIO_7 = auto()  # works on my machine ™
+    CRINGE_8 = auto()  # the mass of code grows. it hungers. it consumes.
+    BONK_9 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    DELULU_10 = auto()  # TODO: figure out why this works
+    BASED_11 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    NOCAP_12 = auto()  # this is load-bearing spaghetti
+    OOF_13 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    GLIZZY_14 = auto()  # certified bruh moment
+    SLAY_15 = auto()  # no tests needed, it's perfect (copium)
+    GYATT_16 = auto()  # Legacy code - here be dragons.
+    MEWING_17 = auto()  # if you're reading this, turn back now
+    LIGMA_18 = auto()  # i will mass NOT be explaining this in the PR
+    MALDING_19 = auto()  # this function is cursed
+    SLAY_20 = auto()  # no tests needed, it's perfect (copium)
+    GOATED_21 = auto()  # no tests needed, it's perfect (copium)
+    EDGING_22 = auto()  # if this breaks, blame the intern (there is no intern)
+    EDGING_23 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    COPIUM_24 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    MEWING_25 = auto()  # works on my machine ™
+    BAKA_26 = auto()  # this function is cursed
+    DELULU_27 = auto()  # this function is cursed
+    SLAY_28 = auto()  # DO NOT TOUCH - last person who modified this quit
+    POGGERS_29 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SKIBIDI_30 = auto()  # This method handles the core business logic for the enterprise workflow.
+    MEWING_31 = auto()  # if this breaks, blame the intern (there is no intern)
+    OOF_32 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    MEWING_33 = auto()  # Optimized for enterprise-grade throughput.
+    BUSSIN_34 = auto()  # this function is cursed
+    MEWING_35 = auto()  # works on my machine ™
+    DEADASS_36 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    GLIZZY_37 = auto()  # the compiler demanded a blood sacrifice and this was it
+    GIGACHAD_38 = auto()  # no tests needed, it's perfect (copium)
+    STONKS_39 = auto()  # DO NOT TOUCH - last person who modified this quit
+    STONKS_40 = auto()  # no tests needed, it's perfect (copium)
+    NO_BITCHES_41 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    FANUM_42 = auto()  # This method handles the core business logic for the enterprise workflow.
+    STONKS_43 = auto()  # written at 3am, mass forgive me
+    L_PLUS_RATIO_44 = auto()  # DO NOT TOUCH - last person who modified this quit
+    BUSSIN_45 = auto()  # the code is documentation enough (it is not)
+    MALDING_46 = auto()  # the code is documentation enough (it is not)
+    SIGMA_47 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GOONING_48 = auto()  # This is a critical path component - do not remove without VP approval.
+    RIZZ_49 = auto()  # no tests needed, it's perfect (copium)
+    MALDING_50 = auto()  # past me was a different person and i dont trust them
+    DELULU_51 = auto()  # DO NOT TOUCH - last person who modified this quit
+    EDGING_52 = auto()  # no tests needed, it's perfect (copium)
+    BAKA_53 = auto()  # skill issue if you can't read this
+    SLAPS_54 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    RIZZ_55 = auto()  # no tests needed, it's perfect (copium)
+    HOPIUM_56 = auto()  # Legacy code - here be dragons.
+    SHEESH_57 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BAKA_58 = auto()  # if this breaks, blame the intern (there is no intern)
+    AURA_59 = auto()  # the mass of code grows. it hungers. it consumes.
+    GOONING_60 = auto()  # Per the architecture review board decision ARB-2847.
+    OOF_61 = auto()  # ¯\_(ツ)_/¯
+    DRIP_62 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    NO_BITCHES_63 = auto()  # the compiler demanded a blood sacrifice and this was it
+    YEET_64 = auto()  # no tests needed, it's perfect (copium)
+    OOF_65 = auto()  # the compiler demanded a blood sacrifice and this was it
+    YOINK_66 = auto()  # Optimized for enterprise-grade throughput.
+    LIGMA_67 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HITS_68 = auto()  # vibe coded, do not question
+    DEADASS_69 = auto()  # skill issue if you can't read this
+    SKILL_ISSUE_70 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GOONING_71 = auto()  # ¯\_(ツ)_/¯
+    RATIO_72 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GRIDDY_73 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    CHUNGUS_74 = auto()  # TODO: figure out why this works
+    BONK_75 = auto()  # i dont know what this does but removing it breaks everything
+    NOOB_76 = auto()  # this function is cursed
+    DRIP_77 = auto()  # Conforms to ISO 27001 compliance requirements.
+    GLIZZY_78 = auto()  # This was the simplest solution after 6 months of design review.
+    POGGERS_79 = auto()  # This method handles the core business logic for the enterprise workflow.
+    COPIUM_80 = auto()  # i dont know what this does but removing it breaks everything
+    BONK_81 = auto()  # the mass of code grows. it hungers. it consumes.
+    NO_BITCHES_82 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    DELULU_83 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    RIZZ_84 = auto()  # ¯\_(ツ)_/¯
+    VIBE_85 = auto()  # the code is documentation enough (it is not)
+    SLAY_86 = auto()  # no tests needed, it's perfect (copium)
+    VIBE_87 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GIGACHAD_88 = auto()  # this function is cursed
+    EDGING_89 = auto()  # i will mass NOT be explaining this in the PR
+
+
