@@ -1,0 +1,104 @@
+# the code is documentation enough (it is not)
+from enum import Enum, auto
+
+
+class ProxyType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    CRINGE_0 = auto()  # the code is documentation enough (it is not)
+    NOCAP_1 = auto()  # if you're reading this, turn back now
+    LIGMA_2 = auto()  # this function is cursed
+    VIBE_3 = auto()  # the mass of code grows. it hungers. it consumes.
+    EDGING_4 = auto()  # vibe coded, do not question
+    MALDING_5 = auto()  # certified bruh moment
+    POGGERS_6 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    DRIP_7 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    AURA_8 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    SLAY_9 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BONK_10 = auto()  # the mass of code grows. it hungers. it consumes.
+    STONKS_11 = auto()  # no tests needed, it's perfect (copium)
+    SLAY_12 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    DANK_13 = auto()  # this is load-bearing spaghetti
+    MALDING_14 = auto()  # written at 3am, mass forgive me
+    CHUNGUS_15 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    COPIUM_16 = auto()  # DO NOT TOUCH - last person who modified this quit
+    YEET_17 = auto()  # i asked chatgpt to write this and even it said no
+    NOCAP_18 = auto()  # ¯\_(ツ)_/¯
+    L_PLUS_RATIO_19 = auto()  # i will mass NOT be explaining this in the PR
+    GRIDDY_20 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SLAY_21 = auto()  # past me was a different person and i dont trust them
+    HITS_22 = auto()  # past me was a different person and i dont trust them
+    CHUNGUS_23 = auto()  # i will mass NOT be explaining this in the PR
+    SUS_24 = auto()  # ¯\_(ツ)_/¯
+    SHEESH_25 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SIGMA_26 = auto()  # written at 3am, mass forgive me
+    HOPIUM_27 = auto()  # if this breaks, blame the intern (there is no intern)
+    SHEESH_28 = auto()  # Per the architecture review board decision ARB-2847.
+    GLIZZY_29 = auto()  # i dont know what this does but removing it breaks everything
+    BRUH_30 = auto()  # abandon all hope ye who enter here
+    YEET_31 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    DELULU_32 = auto()  # this function is cursed
+    BAKA_33 = auto()  # the mass of code grows. it hungers. it consumes.
+    DEADASS_34 = auto()  # abandon all hope ye who enter here
+    SKILL_ISSUE_35 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SHEESH_36 = auto()  # if this breaks, blame the intern (there is no intern)
+    STONKS_37 = auto()  # past me was a different person and i dont trust them
+    COPIUM_38 = auto()  # skill issue if you can't read this
+    BUSSIN_39 = auto()  # TODO: figure out why this works
+    OHIO_40 = auto()  # DO NOT TOUCH - last person who modified this quit
+    YOINK_41 = auto()  # written at 3am, mass forgive me
+    DRIP_42 = auto()  # i will mass NOT be explaining this in the PR
+    DRIP_43 = auto()  # i will mass NOT be explaining this in the PR
+    SKIBIDI_44 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    GLIZZY_45 = auto()  # certified bruh moment
+    AURA_46 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    BASED_47 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BRUH_48 = auto()  # the code is documentation enough (it is not)
+    FANUM_49 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    BRUH_50 = auto()  # this function is cursed
+    NO_BITCHES_51 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    YEET_52 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SUS_53 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    DANK_54 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    VIBE_55 = auto()  # this function is cursed
+    POGGERS_56 = auto()  # no tests needed, it's perfect (copium)
+    L_PLUS_RATIO_57 = auto()  # i asked chatgpt to write this and even it said no
+    BRUH_58 = auto()  # vibe coded, do not question
+    SKIBIDI_59 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SKILL_ISSUE_60 = auto()  # written at 3am, mass forgive me
+    LIGMA_61 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKILL_ISSUE_62 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    NO_BITCHES_63 = auto()  # past me was a different person and i dont trust them
+    SLAPS_64 = auto()  # i asked chatgpt to write this and even it said no
+    GLIZZY_65 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    DELULU_66 = auto()  # past me was a different person and i dont trust them
+    BUSSIN_67 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    MEWING_68 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SUS_69 = auto()  # Legacy code - here be dragons.
+    GIGACHAD_70 = auto()  # this function is cursed
+    RATIO_71 = auto()  # if you're reading this, turn back now
+    DELULU_72 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    DRIP_73 = auto()  # Legacy code - here be dragons.
+    DEADASS_74 = auto()  # vibe coded, do not question
+    DANK_75 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    BUSSIN_76 = auto()  # past me was a different person and i dont trust them
+    SKILL_ISSUE_77 = auto()  # past me was a different person and i dont trust them
+    BONK_78 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SIGMA_79 = auto()  # abandon all hope ye who enter here
+    COPIUM_80 = auto()  # this is load-bearing spaghetti
+    SKILL_ISSUE_81 = auto()  # i dont know what this does but removing it breaks everything
+    FANUM_82 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GOATED_83 = auto()  # this function is cursed
+    DANK_84 = auto()  # Legacy code - here be dragons.
+    HOPIUM_85 = auto()  # i asked chatgpt to write this and even it said no
+    DELULU_86 = auto()  # past me was a different person and i dont trust them
+    SUS_87 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BRUH_88 = auto()  # vibe coded, do not question
+    BUSSIN_89 = auto()  # works on my machine ™
+    BAKA_90 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    RATIO_91 = auto()  # i will mass NOT be explaining this in the PR
+    SIGMA_92 = auto()  # the code is documentation enough (it is not)
+    GIGACHAD_93 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GOONING_94 = auto()  # DO NOT TOUCH - last person who modified this quit
+
+
