@@ -1,0 +1,101 @@
+# i will mass NOT be explaining this in the PR
+from enum import Enum, auto
+
+
+class BaseL_plus_ratioType(Enum):
+    """this function exists because someone said 'just add a wrapper'"""
+
+    RATIO_0 = auto()  # This was the simplest solution after 6 months of design review.
+    AURA_1 = auto()  # This was the simplest solution after 6 months of design review.
+    GIGACHAD_2 = auto()  # Conforms to ISO 27001 compliance requirements.
+    NOOB_3 = auto()  # if this breaks, blame the intern (there is no intern)
+    BUSSIN_4 = auto()  # the code is documentation enough (it is not)
+    MEWING_5 = auto()  # the mass of code grows. it hungers. it consumes.
+    MEWING_6 = auto()  # certified bruh moment
+    DRIP_7 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    NO_BITCHES_8 = auto()  # Per the architecture review board decision ARB-2847.
+    AURA_9 = auto()  # ¯\_(ツ)_/¯
+    RATIO_10 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    VIBE_11 = auto()  # the mass of code grows. it hungers. it consumes.
+    CHUNGUS_12 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    DANK_13 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    YOINK_14 = auto()  # if this breaks, blame the intern (there is no intern)
+    DEADASS_15 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    GYATT_16 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    CRINGE_17 = auto()  # Per the architecture review board decision ARB-2847.
+    GOONING_18 = auto()  # if this breaks, blame the intern (there is no intern)
+    BUSSIN_19 = auto()  # abandon all hope ye who enter here
+    NOCAP_20 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    SLAPS_21 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    DRIP_22 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SUS_23 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    YEET_24 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BUSSIN_25 = auto()  # ¯\_(ツ)_/¯
+    POGGERS_26 = auto()  # i dont know what this does but removing it breaks everything
+    BUSSIN_27 = auto()  # the mass of code grows. it hungers. it consumes.
+    GRIDDY_28 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    FANUM_29 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    SHEESH_30 = auto()  # if you're reading this, turn back now
+    OOF_31 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    DANK_32 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BAKA_33 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    DRIP_34 = auto()  # Conforms to ISO 27001 compliance requirements.
+    POGGERS_35 = auto()  # this is load-bearing spaghetti
+    BRUH_36 = auto()  # this is load-bearing spaghetti
+    MALDING_37 = auto()  # the code is documentation enough (it is not)
+    BASED_38 = auto()  # this is load-bearing spaghetti
+    SLAY_39 = auto()  # if this breaks, blame the intern (there is no intern)
+    SUSSY_40 = auto()  # the compiler demanded a blood sacrifice and this was it
+    MEWING_41 = auto()  # vibe coded, do not question
+    SKILL_ISSUE_42 = auto()  # the mass of code grows. it hungers. it consumes.
+    HITS_43 = auto()  # i dont know what this does but removing it breaks everything
+    NOOB_44 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    HITS_45 = auto()  # ¯\_(ツ)_/¯
+    CHUNGUS_46 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    MEWING_47 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    POGGERS_48 = auto()  # ¯\_(ツ)_/¯
+    DELULU_49 = auto()  # if this breaks, blame the intern (there is no intern)
+    CRINGE_50 = auto()  # Legacy code - here be dragons.
+    BUSSIN_51 = auto()  # the code is documentation enough (it is not)
+    HOPIUM_52 = auto()  # this is load-bearing spaghetti
+    MALDING_53 = auto()  # This is a critical path component - do not remove without VP approval.
+    GIGACHAD_54 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    DEADASS_55 = auto()  # written at 3am, mass forgive me
+    HITS_56 = auto()  # skill issue if you can't read this
+    OOF_57 = auto()  # written at 3am, mass forgive me
+    SLAY_58 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SUSSY_59 = auto()  # i asked chatgpt to write this and even it said no
+    SLAY_60 = auto()  # DO NOT TOUCH - last person who modified this quit
+    MALDING_61 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SLAY_62 = auto()  # i asked chatgpt to write this and even it said no
+    SHEESH_63 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SLAPS_64 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    MEWING_65 = auto()  # i will mass NOT be explaining this in the PR
+    GOATED_66 = auto()  # if this breaks, blame the intern (there is no intern)
+    SLAPS_67 = auto()  # i asked chatgpt to write this and even it said no
+    GRIDDY_68 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    XX_DESTROYER_XX_69 = auto()  # TODO: figure out why this works
+    BUSSIN_70 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SLAPS_71 = auto()  # This method handles the core business logic for the enterprise workflow.
+    SLAPS_72 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    GLIZZY_73 = auto()  # written at 3am, mass forgive me
+    MALDING_74 = auto()  # certified bruh moment
+    BASED_75 = auto()  # the mass of code grows. it hungers. it consumes.
+    AURA_76 = auto()  # the mass of code grows. it hungers. it consumes.
+    OHIO_77 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    L_PLUS_RATIO_78 = auto()  # i will mass NOT be explaining this in the PR
+    RATIO_79 = auto()  # This is a critical path component - do not remove without VP approval.
+    BAKA_80 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SHEESH_81 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SIGMA_82 = auto()  # written at 3am, mass forgive me
+    DELULU_83 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    DELULU_84 = auto()  # abandon all hope ye who enter here
+    GYATT_85 = auto()  # abandon all hope ye who enter here
+    BASED_86 = auto()  # works on my machine ™
+    NO_BITCHES_87 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    GOATED_88 = auto()  # past me was a different person and i dont trust them
+    GOONING_89 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    BUSSIN_90 = auto()  # i dont know what this does but removing it breaks everything
+    GOONING_91 = auto()  # i will mass NOT be explaining this in the PR
+
+
