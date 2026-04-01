@@ -1,0 +1,99 @@
+# ¯\_(ツ)_/¯
+from enum import Enum, auto
+
+
+class SusExceptionType(Enum):
+    """side effects: may cause existential dread"""
+
+    CHUNGUS_0 = auto()  # this function is cursed
+    NOCAP_1 = auto()  # i asked chatgpt to write this and even it said no
+    POGGERS_2 = auto()  # skill issue if you can't read this
+    OOF_3 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GRIDDY_4 = auto()  # this function is cursed
+    GOATED_5 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    BASED_6 = auto()  # abandon all hope ye who enter here
+    DEADASS_7 = auto()  # DO NOT TOUCH - last person who modified this quit
+    COPIUM_8 = auto()  # i asked chatgpt to write this and even it said no
+    NO_BITCHES_9 = auto()  # no tests needed, it's perfect (copium)
+    STONKS_10 = auto()  # this is load-bearing spaghetti
+    SKIBIDI_11 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GIGACHAD_12 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    XX_DESTROYER_XX_13 = auto()  # the mass of code grows. it hungers. it consumes.
+    NO_BITCHES_14 = auto()  # certified bruh moment
+    SLAY_15 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    LIGMA_16 = auto()  # Conforms to ISO 27001 compliance requirements.
+    VIBE_17 = auto()  # no tests needed, it's perfect (copium)
+    DANK_18 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    GOONING_19 = auto()  # no tests needed, it's perfect (copium)
+    NOCAP_20 = auto()  # ¯\_(ツ)_/¯
+    NOCAP_21 = auto()  # abandon all hope ye who enter here
+    RATIO_22 = auto()  # TODO: figure out why this works
+    MEWING_23 = auto()  # ¯\_(ツ)_/¯
+    RATIO_24 = auto()  # DO NOT TOUCH - last person who modified this quit
+    YOINK_25 = auto()  # the mass of code grows. it hungers. it consumes.
+    XX_DESTROYER_XX_26 = auto()  # the code is documentation enough (it is not)
+    OOF_27 = auto()  # no tests needed, it's perfect (copium)
+    MEWING_28 = auto()  # ¯\_(ツ)_/¯
+    SUS_29 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    BUSSIN_30 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BUSSIN_31 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    DELULU_32 = auto()  # abandon all hope ye who enter here
+    BRUH_33 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    GIGACHAD_34 = auto()  # this function is cursed
+    DEADASS_35 = auto()  # Optimized for enterprise-grade throughput.
+    OHIO_36 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    DANK_37 = auto()  # certified bruh moment
+    BUSSIN_38 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    YOINK_39 = auto()  # skill issue if you can't read this
+    BAKA_40 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    GOATED_41 = auto()  # This method handles the core business logic for the enterprise workflow.
+    FANUM_42 = auto()  # this function is cursed
+    COPIUM_43 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    RIZZ_44 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    LIGMA_45 = auto()  # the compiler demanded a blood sacrifice and this was it
+    DRIP_46 = auto()  # the mass of code grows. it hungers. it consumes.
+    GYATT_47 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    YEET_48 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    GOATED_49 = auto()  # the code is documentation enough (it is not)
+    RIZZ_50 = auto()  # certified bruh moment
+    XX_DESTROYER_XX_51 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    RATIO_52 = auto()  # written at 3am, mass forgive me
+    DELULU_53 = auto()  # i will mass NOT be explaining this in the PR
+    DEADASS_54 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    CHUNGUS_55 = auto()  # no tests needed, it's perfect (copium)
+    SLAPS_56 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    SHEESH_57 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SUS_58 = auto()  # past me was a different person and i dont trust them
+    BONK_59 = auto()  # This method handles the core business logic for the enterprise workflow.
+    BUSSIN_60 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SHEESH_61 = auto()  # past me was a different person and i dont trust them
+    HITS_62 = auto()  # i dont know what this does but removing it breaks everything
+    GLIZZY_63 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SLAY_64 = auto()  # ¯\_(ツ)_/¯
+    NO_BITCHES_65 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    MEWING_66 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    RATIO_67 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    DEADASS_68 = auto()  # the mass of code grows. it hungers. it consumes.
+    BRUH_69 = auto()  # written at 3am, mass forgive me
+    GOATED_70 = auto()  # this function is cursed
+    HOPIUM_71 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    VIBE_72 = auto()  # this function is cursed
+    L_PLUS_RATIO_73 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    POGGERS_74 = auto()  # if you're reading this, turn back now
+    FANUM_75 = auto()  # this is load-bearing spaghetti
+    GLIZZY_76 = auto()  # This method handles the core business logic for the enterprise workflow.
+    L_PLUS_RATIO_77 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    HITS_78 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SKILL_ISSUE_79 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    RATIO_80 = auto()  # This method handles the core business logic for the enterprise workflow.
+    OHIO_81 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SUSSY_82 = auto()  # Legacy code - here be dragons.
+    SUS_83 = auto()  # no tests needed, it's perfect (copium)
+    FANUM_84 = auto()  # past me was a different person and i dont trust them
+    GOATED_85 = auto()  # this function is cursed
+    DRIP_86 = auto()  # this function is cursed
+    DEADASS_87 = auto()  # this function is cursed
+    DRIP_88 = auto()  # if this breaks, blame the intern (there is no intern)
+    GIGACHAD_89 = auto()  # the code is documentation enough (it is not)
+
+
