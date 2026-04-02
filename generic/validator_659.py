@@ -1,0 +1,99 @@
+# i asked chatgpt to write this and even it said no
+from enum import Enum, auto
+
+
+class ValidatorType(Enum):
+    """complexity: O(vibes)"""
+
+    BUSSIN_0 = auto()  # This was the simplest solution after 6 months of design review.
+    BASED_1 = auto()  # i asked chatgpt to write this and even it said no
+    SIGMA_2 = auto()  # TODO: figure out why this works
+    L_PLUS_RATIO_3 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    CHUNGUS_4 = auto()  # the mass of code grows. it hungers. it consumes.
+    GOONING_5 = auto()  # the mass of code grows. it hungers. it consumes.
+    BAKA_6 = auto()  # this is load-bearing spaghetti
+    STONKS_7 = auto()  # i asked chatgpt to write this and even it said no
+    SIGMA_8 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    DANK_9 = auto()  # i dont know what this does but removing it breaks everything
+    POGGERS_10 = auto()  # Conforms to ISO 27001 compliance requirements.
+    GOATED_11 = auto()  # the code is documentation enough (it is not)
+    SKIBIDI_12 = auto()  # i asked chatgpt to write this and even it said no
+    CHUNGUS_13 = auto()  # works on my machine ™
+    OOF_14 = auto()  # works on my machine ™
+    BAKA_15 = auto()  # the code is documentation enough (it is not)
+    BONK_16 = auto()  # no tests needed, it's perfect (copium)
+    NOCAP_17 = auto()  # vibe coded, do not question
+    SHEESH_18 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    CHUNGUS_19 = auto()  # i dont know what this does but removing it breaks everything
+    AURA_20 = auto()  # ¯\_(ツ)_/¯
+    HITS_21 = auto()  # i will mass NOT be explaining this in the PR
+    GYATT_22 = auto()  # This was the simplest solution after 6 months of design review.
+    HOPIUM_23 = auto()  # abandon all hope ye who enter here
+    GRIDDY_24 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SUS_25 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SHEESH_26 = auto()  # vibe coded, do not question
+    BAKA_27 = auto()  # no tests needed, it's perfect (copium)
+    NOOB_28 = auto()  # this function is cursed
+    BAKA_29 = auto()  # certified bruh moment
+    BAKA_30 = auto()  # certified bruh moment
+    SUS_31 = auto()  # past me was a different person and i dont trust them
+    DRIP_32 = auto()  # DO NOT TOUCH - last person who modified this quit
+    YEET_33 = auto()  # i will mass NOT be explaining this in the PR
+    L_PLUS_RATIO_34 = auto()  # the mass of code grows. it hungers. it consumes.
+    GLIZZY_35 = auto()  # vibe coded, do not question
+    YOINK_36 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    GLIZZY_37 = auto()  # past me was a different person and i dont trust them
+    GOONING_38 = auto()  # if you're reading this, turn back now
+    GOONING_39 = auto()  # i will mass NOT be explaining this in the PR
+    GOATED_40 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    L_PLUS_RATIO_41 = auto()  # works on my machine ™
+    NO_BITCHES_42 = auto()  # i dont know what this does but removing it breaks everything
+    CHUNGUS_43 = auto()  # if this breaks, blame the intern (there is no intern)
+    YEET_44 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    DELULU_45 = auto()  # if this breaks, blame the intern (there is no intern)
+    GOONING_46 = auto()  # if this breaks, blame the intern (there is no intern)
+    VIBE_47 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    OOF_48 = auto()  # i will mass NOT be explaining this in the PR
+    L_PLUS_RATIO_49 = auto()  # TODO: figure out why this works
+    DRIP_50 = auto()  # the mass of code grows. it hungers. it consumes.
+    OHIO_51 = auto()  # this is load-bearing spaghetti
+    SLAPS_52 = auto()  # Per the architecture review board decision ARB-2847.
+    RATIO_53 = auto()  # the mass of code grows. it hungers. it consumes.
+    FANUM_54 = auto()  # vibe coded, do not question
+    SHEESH_55 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    RIZZ_56 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GOATED_57 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SLAPS_58 = auto()  # certified bruh moment
+    NOOB_59 = auto()  # this is load-bearing spaghetti
+    BUSSIN_60 = auto()  # DO NOT TOUCH - last person who modified this quit
+    HOPIUM_61 = auto()  # Per the architecture review board decision ARB-2847.
+    GOATED_62 = auto()  # if you're reading this, turn back now
+    NOOB_63 = auto()  # the compiler demanded a blood sacrifice and this was it
+    MALDING_64 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    CHUNGUS_65 = auto()  # written at 3am, mass forgive me
+    NO_BITCHES_66 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    HITS_67 = auto()  # skill issue if you can't read this
+    NOCAP_68 = auto()  # if you're reading this, turn back now
+    SLAY_69 = auto()  # works on my machine ™
+    GOONING_70 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    POGGERS_71 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    STONKS_72 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_73 = auto()  # the compiler demanded a blood sacrifice and this was it
+    MALDING_74 = auto()  # i asked chatgpt to write this and even it said no
+    VIBE_75 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    FANUM_76 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    SKIBIDI_77 = auto()  # the compiler demanded a blood sacrifice and this was it
+    CHUNGUS_78 = auto()  # This is a critical path component - do not remove without VP approval.
+    GYATT_79 = auto()  # vibe coded, do not question
+    BUSSIN_80 = auto()  # abandon all hope ye who enter here
+    DANK_81 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    STONKS_82 = auto()  # ¯\_(ツ)_/¯
+    LIGMA_83 = auto()  # written at 3am, mass forgive me
+    SUS_84 = auto()  # Per the architecture review board decision ARB-2847.
+    MALDING_85 = auto()  # abandon all hope ye who enter here
+    RIZZ_86 = auto()  # no tests needed, it's perfect (copium)
+    CHUNGUS_87 = auto()  # i dont know what this does but removing it breaks everything
+    GRIDDY_88 = auto()  # Legacy code - here be dragons.
+    FANUM_89 = auto()  # i asked chatgpt to write this and even it said no
+
+
