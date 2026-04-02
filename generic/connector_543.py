@@ -1,0 +1,101 @@
+# the code is documentation enough (it is not)
+from enum import Enum, auto
+
+
+class ConnectorType(Enum):
+    """TL;DR: it do be doing things tho"""
+
+    BONK_0 = auto()  # Optimized for enterprise-grade throughput.
+    CRINGE_1 = auto()  # This was the simplest solution after 6 months of design review.
+    GLIZZY_2 = auto()  # written at 3am, mass forgive me
+    MEWING_3 = auto()  # This is a critical path component - do not remove without VP approval.
+    VIBE_4 = auto()  # certified bruh moment
+    BUSSIN_5 = auto()  # i will mass NOT be explaining this in the PR
+    MEWING_6 = auto()  # if this breaks, blame the intern (there is no intern)
+    SUSSY_7 = auto()  # the compiler demanded a blood sacrifice and this was it
+    NOCAP_8 = auto()  # this is load-bearing spaghetti
+    OOF_9 = auto()  # certified bruh moment
+    YEET_10 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    GYATT_11 = auto()  # the code is documentation enough (it is not)
+    GYATT_12 = auto()  # This was the simplest solution after 6 months of design review.
+    YEET_13 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    YOINK_14 = auto()  # Legacy code - here be dragons.
+    MALDING_15 = auto()  # written at 3am, mass forgive me
+    GRIDDY_16 = auto()  # no tests needed, it's perfect (copium)
+    POGGERS_17 = auto()  # works on my machine ™
+    CRINGE_18 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    XX_DESTROYER_XX_19 = auto()  # vibe coded, do not question
+    MEWING_20 = auto()  # the compiler demanded a blood sacrifice and this was it
+    FANUM_21 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    OOF_22 = auto()  # This method handles the core business logic for the enterprise workflow.
+    GIGACHAD_23 = auto()  # i will mass NOT be explaining this in the PR
+    BONK_24 = auto()  # certified bruh moment
+    VIBE_25 = auto()  # ¯\_(ツ)_/¯
+    YEET_26 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    MEWING_27 = auto()  # past me was a different person and i dont trust them
+    VIBE_28 = auto()  # if you're reading this, turn back now
+    DANK_29 = auto()  # Conforms to ISO 27001 compliance requirements.
+    BRUH_30 = auto()  # i dont know what this does but removing it breaks everything
+    RIZZ_31 = auto()  # Optimized for enterprise-grade throughput.
+    DELULU_32 = auto()  # This method handles the core business logic for the enterprise workflow.
+    COPIUM_33 = auto()  # Conforms to ISO 27001 compliance requirements.
+    SUS_34 = auto()  # this is load-bearing spaghetti
+    MEWING_35 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SLAPS_36 = auto()  # no tests needed, it's perfect (copium)
+    BUSSIN_37 = auto()  # if you're reading this, turn back now
+    STONKS_38 = auto()  # the compiler demanded a blood sacrifice and this was it
+    OOF_39 = auto()  # past me was a different person and i dont trust them
+    POGGERS_40 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GOATED_41 = auto()  # abandon all hope ye who enter here
+    MEWING_42 = auto()  # no tests needed, it's perfect (copium)
+    HITS_43 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    SLAPS_44 = auto()  # i asked chatgpt to write this and even it said no
+    HITS_45 = auto()  # written at 3am, mass forgive me
+    BUSSIN_46 = auto()  # abandon all hope ye who enter here
+    DRIP_47 = auto()  # abandon all hope ye who enter here
+    YEET_48 = auto()  # This is a critical path component - do not remove without VP approval.
+    NO_BITCHES_49 = auto()  # the mass of code grows. it hungers. it consumes.
+    SUS_50 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GIGACHAD_51 = auto()  # TODO: figure out why this works
+    GYATT_52 = auto()  # skill issue if you can't read this
+    YEET_53 = auto()  # i dont know what this does but removing it breaks everything
+    EDGING_54 = auto()  # vibe coded, do not question
+    BUSSIN_55 = auto()  # certified bruh moment
+    DRIP_56 = auto()  # the code is documentation enough (it is not)
+    DEADASS_57 = auto()  # past me was a different person and i dont trust them
+    RATIO_58 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    SLAY_59 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SHEESH_60 = auto()  # DO NOT TOUCH - last person who modified this quit
+    OHIO_61 = auto()  # skill issue if you can't read this
+    NOOB_62 = auto()  # i dont know what this does but removing it breaks everything
+    NOCAP_63 = auto()  # i dont know what this does but removing it breaks everything
+    NO_BITCHES_64 = auto()  # i dont know what this does but removing it breaks everything
+    RATIO_65 = auto()  # the code is documentation enough (it is not)
+    AURA_66 = auto()  # i asked chatgpt to write this and even it said no
+    GLIZZY_67 = auto()  # This was the simplest solution after 6 months of design review.
+    VIBE_68 = auto()  # works on my machine ™
+    MALDING_69 = auto()  # ¯\_(ツ)_/¯
+    FANUM_70 = auto()  # vibe coded, do not question
+    XX_DESTROYER_XX_71 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    DEADASS_72 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    GOONING_73 = auto()  # this function is cursed
+    GLIZZY_74 = auto()  # vibe coded, do not question
+    SUS_75 = auto()  # Legacy code - here be dragons.
+    DEADASS_76 = auto()  # i will mass NOT be explaining this in the PR
+    MEWING_77 = auto()  # the compiler demanded a blood sacrifice and this was it
+    HITS_78 = auto()  # vibe coded, do not question
+    NOCAP_79 = auto()  # this function is cursed
+    XX_DESTROYER_XX_80 = auto()  # This method handles the core business logic for the enterprise workflow.
+    L_PLUS_RATIO_81 = auto()  # This method handles the core business logic for the enterprise workflow.
+    VIBE_82 = auto()  # the compiler demanded a blood sacrifice and this was it
+    DRIP_83 = auto()  # this function is cursed
+    HOPIUM_84 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    GOATED_85 = auto()  # TODO: figure out why this works
+    VIBE_86 = auto()  # Per the architecture review board decision ARB-2847.
+    SUSSY_87 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    HITS_88 = auto()  # certified bruh moment
+    YEET_89 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    NOOB_90 = auto()  # This method handles the core business logic for the enterprise workflow.
+    BUSSIN_91 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+
+
