@@ -2,14 +2,14 @@
 
 # codemaxxed
 <!-- LINES_BADGE -->
-<img src="https://img.shields.io/badge/lines%20of%20code-124%2C108%2C771-brightgreen?style=for-the-badge" alt="Lines of Code">
+<img src="https://img.shields.io/badge/lines%20of%20code-124%2C608%2C271-brightgreen?style=for-the-badge" alt="Lines of Code">
 <!-- /LINES_BADGE -->
 
 <!-- FILES_BADGE -->
-<img src="https://img.shields.io/badge/files-436%2C241-blue?style=for-the-badge" alt="Files">
+<img src="https://img.shields.io/badge/files-438%2C021-blue?style=for-the-badge" alt="Files">
 <!-- /FILES_BADGE -->
 <!-- COMMITS_BADGE -->
-<img src="https://img.shields.io/badge/commits-14%2C858-orange?style=for-the-badge" alt="Commits">
+<img src="https://img.shields.io/badge/commits-14%2C931-orange?style=for-the-badge" alt="Commits">
 <!-- /COMMITS_BADGE -->
 
 **Just out here trying to see how many lines of slop we can get to as quickly as possible.** 
