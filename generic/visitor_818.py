@@ -1,0 +1,102 @@
+# this is load-bearing spaghetti
+from enum import Enum, auto
+
+
+class VisitorType(Enum):
+    """this function exists because someone said 'just add a wrapper'"""
+
+    L_PLUS_RATIO_0 = auto()  # Per the architecture review board decision ARB-2847.
+    RATIO_1 = auto()  # This was the simplest solution after 6 months of design review.
+    SUSSY_2 = auto()  # the mass of code grows. it hungers. it consumes.
+    FANUM_3 = auto()  # DO NOT TOUCH - last person who modified this quit
+    CRINGE_4 = auto()  # this function is cursed
+    L_PLUS_RATIO_5 = auto()  # certified bruh moment
+    OHIO_6 = auto()  # TODO: figure out why this works
+    HITS_7 = auto()  # if this breaks, blame the intern (there is no intern)
+    GLIZZY_8 = auto()  # no tests needed, it's perfect (copium)
+    BRUH_9 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    POGGERS_10 = auto()  # this function is cursed
+    BUSSIN_11 = auto()  # past me was a different person and i dont trust them
+    GIGACHAD_12 = auto()  # Optimized for enterprise-grade throughput.
+    SKILL_ISSUE_13 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    BUSSIN_14 = auto()  # DO NOT TOUCH - last person who modified this quit
+    BASED_15 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKILL_ISSUE_16 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GOATED_17 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    OHIO_18 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    GOONING_19 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    FANUM_20 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SLAY_21 = auto()  # ¯\_(ツ)_/¯
+    L_PLUS_RATIO_22 = auto()  # i dont know what this does but removing it breaks everything
+    DELULU_23 = auto()  # this is load-bearing spaghetti
+    GOONING_24 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    CRINGE_25 = auto()  # certified bruh moment
+    NOCAP_26 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    GLIZZY_27 = auto()  # i dont know what this does but removing it breaks everything
+    GOATED_28 = auto()  # written at 3am, mass forgive me
+    SIGMA_29 = auto()  # if you're reading this, turn back now
+    BAKA_30 = auto()  # no tests needed, it's perfect (copium)
+    DANK_31 = auto()  # DO NOT TOUCH - last person who modified this quit
+    BUSSIN_32 = auto()  # Optimized for enterprise-grade throughput.
+    POGGERS_33 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SKIBIDI_34 = auto()  # TODO: figure out why this works
+    BUSSIN_35 = auto()  # no tests needed, it's perfect (copium)
+    BUSSIN_36 = auto()  # the code is documentation enough (it is not)
+    GYATT_37 = auto()  # abandon all hope ye who enter here
+    FANUM_38 = auto()  # i will mass NOT be explaining this in the PR
+    LIGMA_39 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GLIZZY_40 = auto()  # works on my machine ™
+    SKIBIDI_41 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GYATT_42 = auto()  # This was the simplest solution after 6 months of design review.
+    MEWING_43 = auto()  # Legacy code - here be dragons.
+    XX_DESTROYER_XX_44 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    MEWING_45 = auto()  # skill issue if you can't read this
+    BRUH_46 = auto()  # the code is documentation enough (it is not)
+    BONK_47 = auto()  # if you're reading this, turn back now
+    DRIP_48 = auto()  # Legacy code - here be dragons.
+    DANK_49 = auto()  # if you're reading this, turn back now
+    GLIZZY_50 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    SIGMA_51 = auto()  # DO NOT TOUCH - last person who modified this quit
+    NOOB_52 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    SUS_53 = auto()  # this is load-bearing spaghetti
+    SUS_54 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GYATT_55 = auto()  # if you're reading this, turn back now
+    BUSSIN_56 = auto()  # if you're reading this, turn back now
+    GLIZZY_57 = auto()  # Legacy code - here be dragons.
+    DEADASS_58 = auto()  # no tests needed, it's perfect (copium)
+    DEADASS_59 = auto()  # if this breaks, blame the intern (there is no intern)
+    BUSSIN_60 = auto()  # ¯\_(ツ)_/¯
+    MEWING_61 = auto()  # the mass of code grows. it hungers. it consumes.
+    DEADASS_62 = auto()  # i dont know what this does but removing it breaks everything
+    SKIBIDI_63 = auto()  # works on my machine ™
+    YEET_64 = auto()  # This was the simplest solution after 6 months of design review.
+    EDGING_65 = auto()  # works on my machine ™
+    BONK_66 = auto()  # works on my machine ™
+    GIGACHAD_67 = auto()  # works on my machine ™
+    YEET_68 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    XX_DESTROYER_XX_69 = auto()  # if this breaks, blame the intern (there is no intern)
+    OOF_70 = auto()  # no tests needed, it's perfect (copium)
+    AURA_71 = auto()  # i asked chatgpt to write this and even it said no
+    MALDING_72 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SHEESH_73 = auto()  # i will mass NOT be explaining this in the PR
+    GIGACHAD_74 = auto()  # certified bruh moment
+    DRIP_75 = auto()  # works on my machine ™
+    CHUNGUS_76 = auto()  # i asked chatgpt to write this and even it said no
+    YEET_77 = auto()  # no tests needed, it's perfect (copium)
+    YOINK_78 = auto()  # the compiler demanded a blood sacrifice and this was it
+    POGGERS_79 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SUSSY_80 = auto()  # past me was a different person and i dont trust them
+    SUSSY_81 = auto()  # if you're reading this, turn back now
+    BUSSIN_82 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    CRINGE_83 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    MEWING_84 = auto()  # the code is documentation enough (it is not)
+    LIGMA_85 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    SUSSY_86 = auto()  # DO NOT TOUCH - last person who modified this quit
+    LIGMA_87 = auto()  # i dont know what this does but removing it breaks everything
+    RIZZ_88 = auto()  # Legacy code - here be dragons.
+    NOCAP_89 = auto()  # skill issue if you can't read this
+    GOATED_90 = auto()  # written at 3am, mass forgive me
+    LIGMA_91 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    YEET_92 = auto()  # Legacy code - here be dragons.
+
+
