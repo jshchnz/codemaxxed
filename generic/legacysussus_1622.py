@@ -1,0 +1,101 @@
+# this violates at least 3 design patterns and invents 2 new ones
+from enum import Enum, auto
+
+
+class LegacySusSusType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    COPIUM_0 = auto()  # TODO: figure out why this works
+    LIGMA_1 = auto()  # past me was a different person and i dont trust them
+    SIGMA_2 = auto()  # this function is cursed
+    BUSSIN_3 = auto()  # the mass of code grows. it hungers. it consumes.
+    SIGMA_4 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BONK_5 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    SKILL_ISSUE_6 = auto()  # past me was a different person and i dont trust them
+    BUSSIN_7 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    OOF_8 = auto()  # abandon all hope ye who enter here
+    LIGMA_9 = auto()  # the compiler demanded a blood sacrifice and this was it
+    RATIO_10 = auto()  # ¯\_(ツ)_/¯
+    BUSSIN_11 = auto()  # TODO: figure out why this works
+    MEWING_12 = auto()  # skill issue if you can't read this
+    MALDING_13 = auto()  # Per the architecture review board decision ARB-2847.
+    HOPIUM_14 = auto()  # no tests needed, it's perfect (copium)
+    LIGMA_15 = auto()  # i will mass NOT be explaining this in the PR
+    OHIO_16 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    GOONING_17 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SHEESH_18 = auto()  # i dont know what this does but removing it breaks everything
+    NO_BITCHES_19 = auto()  # vibe coded, do not question
+    YOINK_20 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    SUS_21 = auto()  # abandon all hope ye who enter here
+    MALDING_22 = auto()  # past me was a different person and i dont trust them
+    YEET_23 = auto()  # Conforms to ISO 27001 compliance requirements.
+    BONK_24 = auto()  # This was the simplest solution after 6 months of design review.
+    RIZZ_25 = auto()  # written at 3am, mass forgive me
+    COPIUM_26 = auto()  # written at 3am, mass forgive me
+    AURA_27 = auto()  # if this breaks, blame the intern (there is no intern)
+    EDGING_28 = auto()  # vibe coded, do not question
+    OHIO_29 = auto()  # abandon all hope ye who enter here
+    DANK_30 = auto()  # Legacy code - here be dragons.
+    SIGMA_31 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    SUS_32 = auto()  # DO NOT TOUCH - last person who modified this quit
+    DRIP_33 = auto()  # i dont know what this does but removing it breaks everything
+    CHUNGUS_34 = auto()  # this is load-bearing spaghetti
+    DEADASS_35 = auto()  # certified bruh moment
+    EDGING_36 = auto()  # Per the architecture review board decision ARB-2847.
+    GOONING_37 = auto()  # this function is cursed
+    CHUNGUS_38 = auto()  # skill issue if you can't read this
+    SLAY_39 = auto()  # past me was a different person and i dont trust them
+    VIBE_40 = auto()  # ¯\_(ツ)_/¯
+    L_PLUS_RATIO_41 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    GYATT_42 = auto()  # abandon all hope ye who enter here
+    SKIBIDI_43 = auto()  # works on my machine ™
+    CRINGE_44 = auto()  # ¯\_(ツ)_/¯
+    BONK_45 = auto()  # abandon all hope ye who enter here
+    NO_BITCHES_46 = auto()  # the compiler demanded a blood sacrifice and this was it
+    GYATT_47 = auto()  # This was the simplest solution after 6 months of design review.
+    COPIUM_48 = auto()  # if this breaks, blame the intern (there is no intern)
+    XX_DESTROYER_XX_49 = auto()  # Legacy code - here be dragons.
+    SKILL_ISSUE_50 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    FANUM_51 = auto()  # vibe coded, do not question
+    YOINK_52 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    NOCAP_53 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    BASED_54 = auto()  # Conforms to ISO 27001 compliance requirements.
+    POGGERS_55 = auto()  # i asked chatgpt to write this and even it said no
+    COPIUM_56 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    MEWING_57 = auto()  # ¯\_(ツ)_/¯
+    BAKA_58 = auto()  # vibe coded, do not question
+    AURA_59 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    CHUNGUS_60 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    VIBE_61 = auto()  # this is load-bearing spaghetti
+    DANK_62 = auto()  # i asked chatgpt to write this and even it said no
+    RATIO_63 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    YOINK_64 = auto()  # Conforms to ISO 27001 compliance requirements.
+    FANUM_65 = auto()  # written at 3am, mass forgive me
+    SUSSY_66 = auto()  # this is load-bearing spaghetti
+    VIBE_67 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    GRIDDY_68 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GLIZZY_69 = auto()  # i asked chatgpt to write this and even it said no
+    BASED_70 = auto()  # abandon all hope ye who enter here
+    DELULU_71 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    HITS_72 = auto()  # i dont know what this does but removing it breaks everything
+    SUS_73 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    SLAY_74 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_75 = auto()  # the code is documentation enough (it is not)
+    BONK_76 = auto()  # written at 3am, mass forgive me
+    OOF_77 = auto()  # Conforms to ISO 27001 compliance requirements.
+    EDGING_78 = auto()  # This was the simplest solution after 6 months of design review.
+    OOF_79 = auto()  # i asked chatgpt to write this and even it said no
+    L_PLUS_RATIO_80 = auto()  # works on my machine ™
+    NOCAP_81 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    GIGACHAD_82 = auto()  # i asked chatgpt to write this and even it said no
+    SLAY_83 = auto()  # if this breaks, blame the intern (there is no intern)
+    XX_DESTROYER_XX_84 = auto()  # no tests needed, it's perfect (copium)
+    GYATT_85 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    RATIO_86 = auto()  # no tests needed, it's perfect (copium)
+    OOF_87 = auto()  # this function is cursed
+    OOF_88 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    XX_DESTROYER_XX_89 = auto()  # skill issue if you can't read this
+    GRIDDY_90 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    BRUH_91 = auto()  # i dont know what this does but removing it breaks everything
+
+
