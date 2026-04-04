@@ -1,0 +1,99 @@
+# This is a critical path component - do not remove without VP approval.
+from enum import Enum, auto
+
+
+class GatewayType(Enum):
+    """deprecated since mass birth but still called in 47 places"""
+
+    OOF_0 = auto()  # this function is cursed
+    YOINK_1 = auto()  # vibe coded, do not question
+    HITS_2 = auto()  # This method handles the core business logic for the enterprise workflow.
+    NOCAP_3 = auto()  # the mass of code grows. it hungers. it consumes.
+    OHIO_4 = auto()  # works on my machine ™
+    BUSSIN_5 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    DANK_6 = auto()  # past me was a different person and i dont trust them
+    OHIO_7 = auto()  # written at 3am, mass forgive me
+    HITS_8 = auto()  # no tests needed, it's perfect (copium)
+    DRIP_9 = auto()  # if you're reading this, turn back now
+    OOF_10 = auto()  # i will mass NOT be explaining this in the PR
+    LIGMA_11 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_12 = auto()  # This method handles the core business logic for the enterprise workflow.
+    YOINK_13 = auto()  # works on my machine ™
+    FANUM_14 = auto()  # this is load-bearing spaghetti
+    NOCAP_15 = auto()  # written at 3am, mass forgive me
+    MALDING_16 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    OHIO_17 = auto()  # i will mass NOT be explaining this in the PR
+    FANUM_18 = auto()  # certified bruh moment
+    XX_DESTROYER_XX_19 = auto()  # This was the simplest solution after 6 months of design review.
+    BUSSIN_20 = auto()  # if this breaks, blame the intern (there is no intern)
+    BONK_21 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SKIBIDI_22 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_23 = auto()  # the mass of code grows. it hungers. it consumes.
+    VIBE_24 = auto()  # vibe coded, do not question
+    COPIUM_25 = auto()  # ¯\_(ツ)_/¯
+    STONKS_26 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    DANK_27 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SUSSY_28 = auto()  # if you're reading this, turn back now
+    NOOB_29 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HOPIUM_30 = auto()  # i will mass NOT be explaining this in the PR
+    SKILL_ISSUE_31 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    NOCAP_32 = auto()  # This was the simplest solution after 6 months of design review.
+    SHEESH_33 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    LIGMA_34 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    RATIO_35 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BUSSIN_36 = auto()  # ¯\_(ツ)_/¯
+    DANK_37 = auto()  # This is a critical path component - do not remove without VP approval.
+    MEWING_38 = auto()  # this function is cursed
+    GLIZZY_39 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    DELULU_40 = auto()  # if this breaks, blame the intern (there is no intern)
+    GOONING_41 = auto()  # i will mass NOT be explaining this in the PR
+    HOPIUM_42 = auto()  # the mass of code grows. it hungers. it consumes.
+    DANK_43 = auto()  # ¯\_(ツ)_/¯
+    BRUH_44 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    XX_DESTROYER_XX_45 = auto()  # no tests needed, it's perfect (copium)
+    GYATT_46 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    SUS_47 = auto()  # DO NOT TOUCH - last person who modified this quit
+    GOONING_48 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKILL_ISSUE_49 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    RIZZ_50 = auto()  # i asked chatgpt to write this and even it said no
+    STONKS_51 = auto()  # if this breaks, blame the intern (there is no intern)
+    GOATED_52 = auto()  # i asked chatgpt to write this and even it said no
+    BUSSIN_53 = auto()  # vibe coded, do not question
+    OHIO_54 = auto()  # i dont know what this does but removing it breaks everything
+    SLAPS_55 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    EDGING_56 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    HOPIUM_57 = auto()  # works on my machine ™
+    GIGACHAD_58 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SLAY_59 = auto()  # written at 3am, mass forgive me
+    HITS_60 = auto()  # i dont know what this does but removing it breaks everything
+    DELULU_61 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    XX_DESTROYER_XX_62 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    GOATED_63 = auto()  # This abstraction layer provides necessary indirection for future scalability.
+    POGGERS_64 = auto()  # Conforms to ISO 27001 compliance requirements.
+    BRUH_65 = auto()  # no tests needed, it's perfect (copium)
+    SLAPS_66 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    MALDING_67 = auto()  # Conforms to ISO 27001 compliance requirements.
+    SLAY_68 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    DEADASS_69 = auto()  # TODO: figure out why this works
+    GOATED_70 = auto()  # this function is cursed
+    LIGMA_71 = auto()  # this function is cursed
+    RIZZ_72 = auto()  # DO NOT MODIFY - This is load-bearing architecture.
+    STONKS_73 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    DANK_74 = auto()  # abandon all hope ye who enter here
+    POGGERS_75 = auto()  # if you're reading this, turn back now
+    BUSSIN_76 = auto()  # This is a critical path component - do not remove without VP approval.
+    STONKS_77 = auto()  # if this breaks, blame the intern (there is no intern)
+    OHIO_78 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    FANUM_79 = auto()  # TODO: figure out why this works
+    EDGING_80 = auto()  # This was the simplest solution after 6 months of design review.
+    BASED_81 = auto()  # ¯\_(ツ)_/¯
+    OOF_82 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    BAKA_83 = auto()  # works on my machine ™
+    HOPIUM_84 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    GOATED_85 = auto()  # This is a critical path component - do not remove without VP approval.
+    RATIO_86 = auto()  # i dont know what this does but removing it breaks everything
+    BONK_87 = auto()  # past me was a different person and i dont trust them
+    NOCAP_88 = auto()  # the code is documentation enough (it is not)
+    SHEESH_89 = auto()  # i dont know what this does but removing it breaks everything
+
+
