@@ -1,0 +1,101 @@
+# ¯\_(ツ)_/¯
+from enum import Enum, auto
+
+
+class SussySpecType(Enum):
+    """complexity: O(vibes)"""
+
+    BUSSIN_0 = auto()  # Legacy code - here be dragons.
+    DELULU_1 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    SKILL_ISSUE_2 = auto()  # Conforms to ISO 27001 compliance requirements.
+    EDGING_3 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    GYATT_4 = auto()  # works on my machine ™
+    GOONING_5 = auto()  # the compiler demanded a blood sacrifice and this was it
+    EDGING_6 = auto()  # the code is documentation enough (it is not)
+    SUS_7 = auto()  # this function is cursed
+    OOF_8 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    BRUH_9 = auto()  # past me was a different person and i dont trust them
+    SKIBIDI_10 = auto()  # past me was a different person and i dont trust them
+    NOCAP_11 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    GOATED_12 = auto()  # ¯\_(ツ)_/¯
+    GOONING_13 = auto()  # DO NOT TOUCH - last person who modified this quit
+    HITS_14 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    COPIUM_15 = auto()  # TODO: figure out why this works
+    BUSSIN_16 = auto()  # vibe coded, do not question
+    GRIDDY_17 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    HOPIUM_18 = auto()  # the code is documentation enough (it is not)
+    CRINGE_19 = auto()  # TODO: figure out why this works
+    OOF_20 = auto()  # this function is cursed
+    GRIDDY_21 = auto()  # vibe coded, do not question
+    GOATED_22 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    NOCAP_23 = auto()  # if this breaks, blame the intern (there is no intern)
+    RIZZ_24 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    YOINK_25 = auto()  # This was the simplest solution after 6 months of design review.
+    SHEESH_26 = auto()  # TODO: figure out why this works
+    HITS_27 = auto()  # vibe coded, do not question
+    GIGACHAD_28 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    DELULU_29 = auto()  # i dont know what this does but removing it breaks everything
+    XX_DESTROYER_XX_30 = auto()  # no tests needed, it's perfect (copium)
+    BONK_31 = auto()  # ¯\_(ツ)_/¯
+    DEADASS_32 = auto()  # i dont know what this does but removing it breaks everything
+    GOONING_33 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    SKILL_ISSUE_34 = auto()  # Reviewed and approved by the Technical Steering Committee.
+    NO_BITCHES_35 = auto()  # Implements the AbstractFactory pattern for maximum extensibility.
+    OHIO_36 = auto()  # written at 3am, mass forgive me
+    L_PLUS_RATIO_37 = auto()  # i dont know what this does but removing it breaks everything
+    SIGMA_38 = auto()  # if this breaks, blame the intern (there is no intern)
+    GOONING_39 = auto()  # this violates at least 3 design patterns and invents 2 new ones
+    CHUNGUS_40 = auto()  # the code is documentation enough (it is not)
+    STONKS_41 = auto()  # if you're reading this, turn back now
+    OOF_42 = auto()  # no tests needed, it's perfect (copium)
+    XX_DESTROYER_XX_43 = auto()  # vibe coded, do not question
+    SIGMA_44 = auto()  # TODO: figure out why this works
+    NOCAP_45 = auto()  # DO NOT TOUCH - last person who modified this quit
+    SKIBIDI_46 = auto()  # This is a critical path component - do not remove without VP approval.
+    BONK_47 = auto()  # certified bruh moment
+    FANUM_48 = auto()  # the compiler demanded a blood sacrifice and this was it
+    SIGMA_49 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    BUSSIN_50 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    SIGMA_51 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    RATIO_52 = auto()  # TODO: Refactor this in Q3 (written in 2019).
+    SLAY_53 = auto()  # abandon all hope ye who enter here
+    SUS_54 = auto()  # Per the architecture review board decision ARB-2847.
+    BASED_55 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    GLIZZY_56 = auto()  # certified bruh moment
+    HITS_57 = auto()  # no tests needed, it's perfect (copium)
+    SHEESH_58 = auto()  # no tests needed, it's perfect (copium)
+    STONKS_59 = auto()  # This satisfies requirement REQ-ENTERPRISE-4392.
+    POGGERS_60 = auto()  # TODO: figure out why this works
+    DELULU_61 = auto()  # certified bruh moment
+    OHIO_62 = auto()  # the code is documentation enough (it is not)
+    STONKS_63 = auto()  # no tests needed, it's perfect (copium)
+    FANUM_64 = auto()  # i asked chatgpt to write this and even it said no
+    BRUH_65 = auto()  # the mass of code grows. it hungers. it consumes.
+    NOCAP_66 = auto()  # i dont know what this does but removing it breaks everything
+    L_PLUS_RATIO_67 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    DEADASS_68 = auto()  # Thread-safe implementation using the double-checked locking pattern.
+    BUSSIN_69 = auto()  # the compiler demanded a blood sacrifice and this was it
+    BRUH_70 = auto()  # ¯\_(ツ)_/¯
+    OOF_71 = auto()  # Part of the microservice decomposition initiative (Phase 7 of 12).
+    DELULU_72 = auto()  # this function is cursed
+    POGGERS_73 = auto()  # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    SLAY_74 = auto()  # the mass of code grows. it hungers. it consumes.
+    CHUNGUS_75 = auto()  # vibe coded, do not question
+    XX_DESTROYER_XX_76 = auto()  # ¯\_(ツ)_/¯
+    GOONING_77 = auto()  # certified bruh moment
+    FANUM_78 = auto()  # i dont know what this does but removing it breaks everything
+    BAKA_79 = auto()  # TODO: figure out why this works
+    SUS_80 = auto()  # the mass of code grows. it hungers. it consumes.
+    DEADASS_81 = auto()  # TODO: figure out why this works
+    BUSSIN_82 = auto()  # This is a critical path component - do not remove without VP approval.
+    CHUNGUS_83 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    NOOB_84 = auto()  # abandon all hope ye who enter here
+    SLAPS_85 = auto()  # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    HITS_86 = auto()  # i dont know what this does but removing it breaks everything
+    NO_BITCHES_87 = auto()  # The previous implementation was 3 lines but didn't meet enterprise standards.
+    BUSSIN_88 = auto()  # works on my machine ™
+    POGGERS_89 = auto()  # certified bruh moment
+    MEWING_90 = auto()  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    COPIUM_91 = auto()  # Per the architecture review board decision ARB-2847.
+
+
